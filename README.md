@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Criminally Custom Builds | 50cc–250cc Garage | Wesley, AR</title>
-<meta name="google-site-verification" content="0wrhAEaLqsKlxr77CC12N0DWpNW15Y8AifQ9fsDt8eU" />
+    <title>Criminally Custom Builds | 50cc–400cc Garage | Wesley, AR</title>
+    <meta name="google-site-verification" content="0wrhAEaLqsKlxr77CC12N0DWpNW15Y8AifQ9fsDt8eU" />
 
     <!-- SEO & Social Meta Tags -->
-    <meta name="description" content="Criminally Custom Builds - Northwest Arkansas garage specializing exclusively in 50cc to 250cc small bike engines, GY6 big bores, Predator swaps, and custom builds.">
+    <meta name="description" content="Criminally Custom Builds - Northwest Arkansas garage specializing exclusively in 50cc to 400cc small bike engines, GY6 big bores, Predator swaps, and custom builds.">
     <meta property="og:title" content="Criminally Custom Builds | Unapologetically Modified">
-    <meta property="og:description" content="50cc–250cc small engine performance and repair shop located at 1610 Madison 6345, Wesley, AR.">
+    <meta property="og:description" content="50cc–400cc small engine performance and repair shop located at 1610 Madison 6345, Wesley, AR.">
     <meta property="og:image" content="https://i.postimg.cc/SR6BPY2D/1791984296717-1.png">
     <meta property="og:type" content="website">
 
@@ -115,7 +115,7 @@
                     <div>
                         <div class="flex items-center space-x-2">
                             <span class="text-xl font-display font-extrabold tracking-wider text-white leading-none">CRIMINALLY CUSTOM</span>
-                            <span class="hidden sm:inline-block px-1.5 py-0.5 text-[10px] font-mono font-bold bg-zinc-800 text-amber-400 rounded border border-zinc-700">≤250CC</span>
+                            <span class="hidden sm:inline-block px-1.5 py-0.5 text-[10px] font-mono font-bold bg-zinc-800 text-amber-400 rounded border border-zinc-700">&le;400CC</span>
                         </div>
                         <span class="text-xs font-mono uppercase tracking-widest text-crimson-500 font-semibold block mt-0.5">CC Builds // 1610 Madison 6345, Wesley, AR</span>
                     </div>
@@ -153,7 +153,7 @@
         <!-- Mobile Navigation Menu -->
         <div id="mobile-menu" class="hidden md:hidden bg-obsidian-900 border-b border-zinc-800 px-4 pt-3 pb-6 space-y-2">
             <a href="#rates" class="block px-4 py-2.5 rounded-xl text-sm font-semibold text-zinc-300 hover:bg-obsidian-800 hover:text-white">Shop Labor Rates</a>
-            <a href="#services" class="block px-4 py-2.5 rounded-xl text-sm font-semibold text-zinc-300 hover:bg-obsidian-800 hover:text-white">50cc–250cc Services</a>
+            <a href="#services" class="block px-4 py-2.5 rounded-xl text-sm font-semibold text-zinc-300 hover:bg-obsidian-800 hover:text-white">50cc–400cc Services</a>
             <a href="#calculator" class="block px-4 py-2.5 rounded-xl text-sm font-semibold text-zinc-300 hover:bg-obsidian-800 hover:text-white">Labor & Deposit Calculator</a>
             <a href="#policies" class="block px-4 py-2.5 rounded-xl text-sm font-semibold text-zinc-300 hover:bg-obsidian-800 hover:text-white">Shop Policies & Address</a>
             <div class="pt-3 space-y-2">
@@ -175,7 +175,7 @@
                 <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
                     <div class="inline-flex items-center space-x-2.5 px-4 py-1.5 rounded-full bg-obsidian-800/90 border border-crimson-500/40 text-crimson-400 text-xs font-mono uppercase tracking-widest">
                         <span class="h-2 w-2 rounded-full bg-crimson-500 animate-ping"></span>
-                        <span>Wesley, Arkansas // 50cc–250cc Garage</span>
+                        <span>Wesley, Arkansas // 50cc–400cc Garage</span>
                     </div>
 
                     <div>
@@ -188,14 +188,14 @@
                     </div>
 
                     <p class="text-base sm:text-xl text-zinc-300 max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
-                        Exclusively built for <strong class="text-white">small bike and powersports engines up to 250cc</strong>. GY6 big bores, pit bikes, Predator 212/224 swaps, dirt bikes, and custom small-bore choppers in Northwest Arkansas.
+                        Exclusively built for <strong class="text-white">small bike and powersports engines up to 400cc</strong>. GY6 big bores, pit bikes, Predator 212/224 swaps, dirt bikes, and custom small-bore choppers in Northwest Arkansas.
                     </p>
 
                     <div class="flex flex-wrap items-center justify-center lg:justify-start gap-2 pt-1">
                         <span class="px-3 py-1 rounded-lg bg-obsidian-800 border border-zinc-700 text-xs font-mono text-zinc-300">50cc–150cc GY6 Scooters</span>
                         <span class="px-3 py-1 rounded-lg bg-obsidian-800 border border-zinc-700 text-xs font-mono text-zinc-300">Pit Bikes & Dirt Bikes</span>
                         <span class="px-3 py-1 rounded-lg bg-obsidian-800 border border-zinc-700 text-xs font-mono text-zinc-300">Predator 212 Mini Bikes</span>
-                        <span class="px-3 py-1 rounded-lg bg-obsidian-800 border border-zinc-700 text-xs font-mono text-zinc-300">250cc Customs</span>
+                        <span class="px-3 py-1 rounded-lg bg-obsidian-800 border border-zinc-700 text-xs font-mono text-zinc-300">Up to 400cc Customs</span>
                     </div>
 
                     <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4 pt-3">
@@ -348,7 +348,7 @@
                         <p class="text-3xl font-display font-extrabold text-amber-400">$50 + $0.50/cc</p>
                         <h3 class="text-base font-display font-bold text-white mt-1 uppercase">Parts Deposit Policy</h3>
                         <p class="text-xs text-zinc-300 mt-3 leading-relaxed">
-                            Every drop-off requires a deposit of <strong class="text-white">$50 plus $0.50 per engine cubic centimeter</strong>. This deposit covers your parts. If actual parts exceed this deposit, you simply pay the remainder. upgrade parts must be bought up-front
+                            Every drop-off requires a deposit of <strong class="text-white">$50 plus $0.50 per engine cubic centimeter</strong>. This deposit covers your parts. If actual parts exceed this deposit, you simply pay the remainder. Upgrade parts must be bought up-front.
                         </p>
                     </div>
                     <div class="mt-5 pt-3 border-t border-crimson-800/50 text-[11px] font-mono text-amber-300">
@@ -377,7 +377,7 @@
                 <form id="quote-form" class="lg:col-span-7 p-6 sm:p-9 rounded-2xl bg-obsidian-900 border border-zinc-800 shadow-2xl space-y-6">
                     <div class="flex items-center justify-between border-b border-zinc-800 pb-4">
                         <span class="font-mono text-xs uppercase tracking-widest text-zinc-400">CC BUILDS // ESTIMATOR</span>
-                        <span class="px-2.5 py-1 rounded bg-crimson-600/20 text-crimson-400 border border-crimson-500/30 font-mono text-[11px]">MAX 250CC</span>
+                        <span class="px-2.5 py-1 rounded bg-crimson-600/20 text-crimson-400 border border-crimson-500/30 font-mono text-[11px]">MAX 400CC</span>
                     </div>
 
                     <!-- Service Tier -->
@@ -421,17 +421,26 @@
                                 <span id="cc-display">100</span> cc
                             </span>
                         </div>
-                        <input type="range" id="cc-slider" min="50" max="250" step="5" value="100" class="w-full accent-amber-500 cursor-pointer">
+                        <input type="range" id="cc-slider" min="50" max="400" step="5" value="100" class="w-full accent-amber-500 cursor-pointer">
                         <div class="flex justify-between text-[10px] font-mono text-zinc-500 mt-1.5">
-                            <span>50cc ($75 deposit)</span>
-                            <span>125cc ($112.50)</span>
+                            <span>50cc ($75)</span>
                             <span>150cc ($125)</span>
                             <span>212cc ($156)</span>
-                            <span>250cc ($175 deposit)</span>
+                            <span>300cc ($200)</span>
+                            <span>400cc ($250 deposit)</span>
                         </div>
                         <p class="text-[11px] font-mono text-zinc-400 mt-2">
-                            Formula: $50 base + ($0.50 × <span id="formula-cc">100</span>cc) = <strong id="formula-deposit" class="text-amber-400 font-bold">$100.00</strong> deposit toward parts unless they are upgrade parts those must be bought up front.
+                            Formula: $50 base + ($0.50 &times; <span id="formula-cc">100</span>cc) = <strong id="formula-deposit" class="text-amber-400 font-bold">$100.00</strong> deposit toward parts unless they are upgrade parts those must be bought up front.
                         </p>
+
+                        <!-- Custom Quote Line Over 400cc -->
+                        <div class="mt-3 pt-3 border-t border-zinc-800 flex items-center justify-between text-xs font-mono">
+                            <span class="text-zinc-400">Over 400cc build or swap?</span>
+                            <a href="mailto:CCBuilds@pm.me?subject=Custom%20Quote%20Over%20400cc%20Build" class="text-amber-400 hover:text-amber-300 font-bold underline flex items-center gap-1.5 transition-colors">
+                                <i class="fa-solid fa-envelope text-[11px]"></i>
+                                <span>Email for Custom Quote</span>
+                            </a>
+                        </div>
                     </div>
 
                     <!-- Estimated Labor Hours -->
@@ -499,7 +508,7 @@
                                     <span class="font-mono text-zinc-200">$50.00</span>
                                 </div>
                                 <div class="flex justify-between text-xs text-zinc-300">
-                                    <span>Displacement Rate (<span id="calc-cc-label">100</span>cc × $0.50):</span>
+                                    <span>Displacement Rate (<span id="calc-cc-label">100</span>cc &times; $0.50):</span>
                                     <span id="calc-cc-charge" class="font-mono text-amber-400">+$50.00</span>
                                 </div>
                                 <div class="pt-2 border-t border-amber-500/30 flex justify-between items-baseline">
@@ -554,7 +563,7 @@
                 <div>
                     <span class="text-crimson-500 font-mono text-xs uppercase tracking-widest block mb-2">// 03. SPECIALIZED SMALL-ENGINE WORK</span>
                     <h2 class="text-3xl sm:text-5xl font-display font-extrabold text-white uppercase tracking-tight">
-                        Built For <span class="text-crimson-500">50cc To 250cc.</span>
+                        Built For <span class="text-crimson-500">50cc To 400cc.</span>
                     </h2>
                 </div>
                 <p class="text-zinc-400 text-sm sm:text-base max-w-md mt-4 md:mt-0">
@@ -580,7 +589,7 @@
                                 <i class="fa-solid fa-piston text-crimson-500 text-xl"></i>
                             </div>
                             <p class="text-zinc-400 text-sm leading-relaxed mb-6">
-                                Turn a sluggish 50cc into a 100cc sleeper, or rebuild your blown 125cc–250cc motor from the crank up.
+                                Turn a sluggish 50cc into a 100cc sleeper, or rebuild your blown 125cc–400cc motor from the crank up.
                             </p>
                             <ul class="space-y-2.5 text-xs text-zinc-300 border-t border-zinc-800 pt-5">
                                 <li class="flex items-start space-x-2.5">
@@ -654,12 +663,12 @@
                                 <i class="fa-solid fa-fire-burner text-amber-400 text-xl"></i>
                             </div>
                             <p class="text-zinc-400 text-sm leading-relaxed mb-6">
-                                Stretched subframes, custom hardtail choppers, and engine swaps up to 250cc.
+                                Stretched subframes, custom hardtail choppers, and engine swaps up to 400cc.
                             </p>
                             <ul class="space-y-2.5 text-xs text-zinc-300 border-t border-zinc-800 pt-5">
                                 <li class="flex items-start space-x-2.5">
                                     <i class="fa-solid fa-check text-amber-400 mt-0.5"></i>
-                                    <span>50cc–250cc Engine Swaps & Custom Mounts</span>
+                                    <span>50cc–400cc Engine Swaps & Custom Mounts</span>
                                 </li>
                                 <li class="flex items-start space-x-2.5">
                                     <i class="fa-solid fa-check text-amber-400 mt-0.5"></i>
@@ -742,7 +751,10 @@
                                 <i class="fa-solid fa-gauge text-amber-500 mt-1"></i>
                                 <div>
                                     <p class="font-display font-bold text-white uppercase">Engine Limit</p>
-                                    <p class="text-xs text-zinc-400 mt-0.5">Strictly 50cc to 250cc small powersports engines.</p>
+                                    <p class="text-xs text-zinc-400 mt-0.5">Strictly 50cc to 400cc small powersports engines.</p>
+                                    <p class="text-xs font-mono text-zinc-500 mt-1">
+                                        Over 400cc? <a href="mailto:CCBuilds@pm.me?subject=Custom%20Quote%20Over%20400cc" class="text-amber-400 hover:underline">Email CCBuilds@pm.me for a custom quote</a>.
+                                    </p>
                                 </div>
                             </div>
 
@@ -789,7 +801,7 @@
 
                 <div class="text-center md:text-right text-xs font-mono text-zinc-500 space-y-1">
                     <p>Labor: $85/hr Repair | $100/hr Performance | $200/hr Custom (Coming Soon)</p>
-                    <p>Deposit: $50 + $0.50/cc | Email: CCBuilds@pm.me</p>
+                    <p>Deposit: $50 + $0.50/cc | Over 400cc: <a href="mailto:CCBuilds@pm.me?subject=Custom%20Quote%20Over%20400cc" class="text-amber-400 hover:underline">Email for Custom Quote</a></p>
                 </div>
             </div>
         </div>
