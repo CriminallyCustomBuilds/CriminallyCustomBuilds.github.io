@@ -1,19 +1,31 @@
-# Zenku189.github.io
-
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Criminally Custom Builds (CC Builds) | Unapologetically Modified 50cc–250cc Garage</title>
+    <title>Criminally Custom Builds | 50cc–250cc Garage | Wesley, AR</title>
+    
+    <!-- SEO & Social Meta Tags -->
+    <meta name="description" content="Criminally Custom Builds - Northwest Arkansas garage specializing exclusively in 50cc to 250cc small bike engines, GY6 big bores, Predator swaps, and custom builds.">
+    <meta property="og:title" content="Criminally Custom Builds | Unapologetically Modified">
+    <meta property="og:description" content="50cc–250cc small engine performance and repair shop located at 1610 Madison 6345, Wesley, AR.">
+    <meta property="og:image" content="https://i.postimg.cc/SR6BPY2D/1791984296717-1.png">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://i.postimg.cc/SR6BPY2D/1791984296717-1.png">
+
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Google Fonts: Inter, Space Grotesk & JetBrains Mono -->
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@500;700&family=Space+Grotesk:wght@600;700;800&display=swap" rel="stylesheet">
-    <!-- FontAwesome for Icons -->
+    
+    <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <script>
         tailwind.config = {
             darkMode: 'class',
@@ -79,20 +91,20 @@
 <body class="bg-obsidian-950 text-zinc-100 antialiased selection:bg-crimson-600 selection:text-white overflow-x-hidden">
 
     <!-- Toast Notification -->
-    <div id="toast" class="fixed bottom-6 right-6 z-50 transform translate-y-32 opacity-0 transition-all duration-300 bg-obsidian-800 text-white px-6 py-4 rounded-xl shadow-2xl flex items-center space-x-4 border border-crimson-600/60 max-w-sm">
+    <div id="toast" class="fixed bottom-6 right-6 z-50 transform translate-y-32 opacity-0 transition-all duration-300 bg-obsidian-800 text-white px-6 py-4 rounded-xl shadow-2xl flex items-center space-x-4 border border-crimson-600/60 max-w-sm pointer-events-none">
         <div class="w-10 h-10 rounded-lg bg-crimson-600/20 border border-crimson-500 flex items-center justify-center flex-shrink-0">
             <i class="fa-solid fa-wrench text-crimson-500 text-lg"></i>
         </div>
         <div>
             <h4 id="toast-title" class="font-display font-bold text-sm uppercase tracking-wider text-white">Work Order Logged</h4>
-            <p id="toast-msg" class="text-xs text-zinc-400 mt-0.5">We'll review your build specs and reach out to schedule drop-off.</p>
+            <p id="toast-msg" class="text-xs text-zinc-400 mt-0.5">We'll review your specs and contact you to schedule drop-off.</p>
         </div>
     </div>
 
-    <!-- Lightbox Modal for The Lineup -->
+    <!-- Lightbox Modal -->
     <div id="lightbox-modal" class="fixed inset-0 z-50 hidden bg-black/90 backdrop-blur-md flex items-center justify-center p-4">
         <div class="bg-obsidian-900 border border-zinc-800 rounded-2xl max-w-3xl w-full overflow-hidden shadow-2xl relative">
-            <button id="close-modal" class="absolute top-4 right-4 z-10 w-10 h-10 rounded-xl bg-obsidian-950/80 text-zinc-400 hover:text-white hover:bg-crimson-600 transition-colors flex items-center justify-center">
+            <button id="close-modal" aria-label="Close Preview" class="absolute top-4 right-4 z-10 w-10 h-10 rounded-xl bg-obsidian-950/80 text-zinc-400 hover:text-white hover:bg-crimson-600 transition-colors flex items-center justify-center">
                 <i class="fa-solid fa-xmark text-lg"></i>
             </button>
             <div class="grid grid-cols-1 md:grid-cols-2">
@@ -104,7 +116,7 @@
                     <div>
                         <p id="modal-code" class="text-xs font-mono text-amber-500 uppercase tracking-widest mb-1">BUILD #001</p>
                         <h3 id="modal-title" class="text-2xl font-display font-bold text-white mb-3">Build Name</h3>
-                        <p id="modal-desc" class="text-zinc-400 text-sm leading-relaxed">Mechanical specifications of the small-displacement build.</p>
+                        <p id="modal-desc" class="text-zinc-400 text-sm leading-relaxed">Mechanical specifications.</p>
                         
                         <div class="mt-6 pt-6 border-t border-zinc-800/80 space-y-3">
                             <div class="flex justify-between text-xs">
@@ -117,7 +129,7 @@
                             </div>
                         </div>
                     </div>
-                    <a href="#calculator" id="modal-cta" class="w-full py-3.5 px-6 rounded-xl bg-crimson-600 hover:bg-crimson-500 text-white font-display font-bold text-sm uppercase tracking-wider text-center transition-all">
+                    <a href="#calculator" id="modal-cta" class="w-full py-3.5 px-6 rounded-xl bg-crimson-600 hover:bg-crimson-500 text-white font-display font-bold text-sm uppercase tracking-wider text-center transition-all block">
                         Estimate Labor & Deposit
                     </a>
                 </div>
@@ -134,7 +146,7 @@
             <div class="flex items-center justify-between h-20">
                 <!-- Brand Logo -->
                 <a href="#home" class="flex items-center space-x-3.5 group">
-                    <img src="logo.png" alt="Criminally Custom Builds Logo" class="w-12 h-12 rounded-full border-2 border-amber-500/80 object-cover shadow-lg group-hover:scale-105 transition-transform">
+                    <img src="https://i.postimg.cc/SR6BPY2D/1791984296717-1.png" alt="Criminally Custom Builds Logo" class="w-12 h-12 rounded-full border-2 border-amber-500/80 object-cover shadow-lg group-hover:scale-105 transition-transform">
                     <div>
                         <div class="flex items-center space-x-2">
                             <span class="text-xl font-display font-extrabold tracking-wider text-white leading-none">CRIMINALLY CUSTOM</span>
@@ -148,7 +160,7 @@
                 <div class="hidden md:flex items-center space-x-7">
                     <a href="#rates" class="text-sm font-medium text-zinc-400 hover:text-white transition-colors">Labor Rates</a>
                     <a href="#services" class="text-sm font-medium text-zinc-400 hover:text-white transition-colors">Services</a>
-                    <a href="#calculator" class="text-sm font-medium text-zinc-400 hover:text-white transition-colors">Deposit & Labor Estimator</a>
+                    <a href="#calculator" class="text-sm font-medium text-zinc-400 hover:text-white transition-colors">Deposit Estimator</a>
                     <a href="#lineup" class="text-sm font-medium text-zinc-400 hover:text-white transition-colors">The Lineup</a>
                     <a href="#policies" class="text-sm font-medium text-zinc-400 hover:text-white transition-colors">Shop Location</a>
                 </div>
@@ -244,7 +256,7 @@
                     </div>
                 </div>
 
-                <!-- Featured Card with Official Badge -->
+                <!-- Featured Card with Hosted Logo -->
                 <div class="lg:col-span-5 relative">
                     <div class="absolute -inset-2 bg-gradient-to-r from-crimson-600 to-amber-500 rounded-3xl blur-2xl opacity-25"></div>
                     <div class="relative bg-obsidian-900 border border-zinc-800 rounded-2xl overflow-hidden shadow-2xl">
@@ -258,7 +270,7 @@
                         </div>
                         
                         <div class="p-8 text-center bg-gradient-to-b from-obsidian-950 to-obsidian-900 flex flex-col items-center">
-                            <img src="logo.png" alt="Criminally Custom Builds" class="w-48 h-48 sm:w-56 sm:h-56 object-contain rounded-2xl shadow-2xl border border-zinc-800/80 p-2 bg-obsidian-950/60 mb-4">
+                            <img src="https://i.postimg.cc/SR6BPY2D/1791984296717-1.png" alt="Criminally Custom Builds" class="w-48 h-48 sm:w-56 sm:h-56 object-contain rounded-2xl shadow-2xl border border-zinc-800/80 p-2 bg-obsidian-950/60 mb-4">
                             <h3 class="text-xl font-display font-bold text-white uppercase">Small-Bore Syndicate</h3>
                             <p class="text-xs font-mono text-zinc-400 mt-1">1610 Madison 6345, Wesley, AR 72773</p>
                         </div>
@@ -545,10 +557,10 @@
                                 </div>
                             </div>
 
-                            <!-- Total Estimated Commitment -->
+                            <!-- Estimated Total Commitment -->
                             <div class="flex justify-between items-center pt-1">
                                 <div>
-                                    <span class="text-xs font-mono uppercase text-zinc-400 block">ESTIMATED TOTAL</span>
+                                    <span class="text-xs font-mono font-bold uppercase text-zinc-300 block">ESTIMATED TOTAL</span>
                                     <span class="text-[11px] text-zinc-500">Deposit (Parts) + Estimated Labor</span>
                                 </div>
                                 <span id="summary-grand-total" class="text-3xl font-display font-extrabold text-crimson-500">$500.00</span>
@@ -781,7 +793,7 @@
         </div>
     </section>
 
-    <!-- 6. Shop Address, Policies & Contact -->
+    <!-- 6. Shop Policies & Location -->
     <section id="policies" class="py-20 bg-obsidian-900 border-b border-zinc-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
@@ -819,7 +831,7 @@
                     </div>
                 </div>
 
-                <!-- Verified Business Address Box -->
+                <!-- Business Address Box -->
                 <div class="lg:col-span-5">
                     <div class="p-7 sm:p-8 rounded-2xl bg-obsidian-950 border border-zinc-800 shadow-2xl space-y-6">
                         <div class="flex items-center justify-between border-b border-zinc-800 pb-4">
@@ -876,7 +888,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col md:flex-row items-center justify-between gap-6">
                 <div class="flex items-center space-x-3">
-                    <img src="logo.png" alt="Criminally Custom Builds" class="w-10 h-10 rounded-full border border-amber-500/80 object-cover">
+                    <img src="https://i.postimg.cc/SR6BPY2D/1791984296717-1.png" alt="Criminally Custom Builds" class="w-10 h-10 rounded-full border border-amber-500/80 object-cover">
                     <div>
                         <span class="text-base font-display font-extrabold tracking-wider text-white">CRIMINALLY CUSTOM BUILDS (CC BUILDS)</span>
                         <p class="text-xs text-zinc-500">1610 Madison 6345, Wesley, AR 72773 // 50cc–250cc Garage</p>
@@ -918,7 +930,7 @@
             }, 4500);
         }
 
-        // Calculator Logic
+        // Estimator Calculation Logic
         const rateRadios = document.querySelectorAll('input[name="service_rate"]');
         const ccSlider = document.getElementById('cc-slider');
         const ccDisplay = document.getElementById('cc-display');
@@ -945,13 +957,11 @@
             const cc = parseFloat(ccSlider.value) || 50;
             const hours = parseFloat(hoursSlider.value) || 0;
 
-            // Deposit formula: $50 base + ($0.50 per cc)
             const ccVariableDeposit = cc * 0.50;
             const totalDeposit = 50 + ccVariableDeposit;
             const laborTotal = hours * selectedRate;
             const grandTotal = totalDeposit + laborTotal;
 
-            // Update displays
             ccDisplay.textContent = cc;
             formulaCc.textContent = cc;
             calcCcLabel.textContent = cc;
@@ -977,7 +987,7 @@
 
         updateCalculator();
 
-        // Lineup Modal Logic
+        // Lineup Modal
         const modal = document.getElementById('lightbox-modal');
         const closeModalBtn = document.getElementById('close-modal');
         const modalCta = document.getElementById('modal-cta');
