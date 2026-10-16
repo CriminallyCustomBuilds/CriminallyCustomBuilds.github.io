@@ -1,6 +1,6 @@
-<!DOCTYPE html>
-<html lang="en" class="scroll-smooth dark">
-<head>
+    <!DOCTYPE html>
+    <html lang="en" class="scroll-smooth dark">
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Criminally Custom Builds | 50cc–250cc Garage | Wesley, AR</title>
