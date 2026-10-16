@@ -430,7 +430,7 @@
                             <span>250cc ($175 deposit)</span>
                         </div>
                         <p class="text-[11px] font-mono text-zinc-400 mt-2">
-                            Formula: $50 base + ($0.50 × <span id="formula-cc">100</span>cc) = <strong id="formula-deposit" class="text-amber-400 font-bold">$100.00</strong> deposit toward parts.
+                            Formula: $50 base + ($0.50 × <span id="formula-cc">100</span>cc) = <strong id="formula-deposit" class="text-amber-400 font-bold">$100.00</strong> deposit toward parts unless they are upgrade parts those must be bought up front.
                         </p>
                     </div>
 
@@ -507,7 +507,7 @@
                                     <span id="summary-deposit-total" class="text-2xl font-mono font-bold text-amber-400">$100.00</span>
                                 </div>
                                 <p class="text-[10px] text-zinc-400 italic pt-1 leading-relaxed">
-                                    * The deposit covers parts. If parts cost exceeds this deposit, you simply pay the remainder upon completion.
+                                    * The deposit covers parts. If parts cost exceeds this deposit, you simply pay the remainder upon completion, upgrade parts excluded must be bought up front.
                                 </p>
                             </div>
 
