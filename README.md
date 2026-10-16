@@ -348,7 +348,7 @@
                         <p class="text-3xl font-display font-extrabold text-amber-400">$50 + $0.50/cc</p>
                         <h3 class="text-base font-display font-bold text-white mt-1 uppercase">Parts Deposit Policy</h3>
                         <p class="text-xs text-zinc-300 mt-3 leading-relaxed">
-                            Every drop-off requires a deposit of <strong class="text-white">$50 plus $0.50 per engine cubic centimeter</strong>. This deposit covers your parts. If actual parts exceed this deposit, you simply pay the remainder.
+                            Every drop-off requires a deposit of <strong class="text-white">$50 plus $0.50 per engine cubic centimeter</strong>. This deposit covers your parts. If actual parts exceed this deposit, you simply pay the remainder. upgrade parts must be bought up-front
                         </p>
                     </div>
                     <div class="mt-5 pt-3 border-t border-crimson-800/50 text-[11px] font-mono text-amber-300">
