@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="0wrhAEaLqsKlxr77CC12N0DWpNW15Y8AifQ9fsDt8eU" />
     <title>Criminally Custom Builds | 50cc–250cc Garage | Wesley, AR</title>
     
+    <!-- Google Search Console Verification -->
+    <meta name="google-site-verification" content="0wrhAEaLqsKlxr77CC12N0DWpNW15Y8AifQ9fsDt8eU" />
+
     <!-- SEO & Social Meta Tags -->
     <meta name="description" content="Criminally Custom Builds - Northwest Arkansas garage specializing exclusively in 50cc to 250cc small bike engines, GY6 big bores, Predator swaps, and custom builds.">
     <meta property="og:title" content="Criminally Custom Builds | Unapologetically Modified">
