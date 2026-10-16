@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en" class="scroll-smooth dark">
 <head>
     <meta charset="UTF-8">
@@ -101,42 +101,6 @@
         </div>
     </div>
 
-    <!-- Lightbox Modal -->
-    <div id="lightbox-modal" class="fixed inset-0 z-50 hidden bg-black/90 backdrop-blur-md flex items-center justify-center p-4">
-        <div class="bg-obsidian-900 border border-zinc-800 rounded-2xl max-w-3xl w-full overflow-hidden shadow-2xl relative">
-            <button id="close-modal" aria-label="Close Preview" class="absolute top-4 right-4 z-10 w-10 h-10 rounded-xl bg-obsidian-950/80 text-zinc-400 hover:text-white hover:bg-crimson-600 transition-colors flex items-center justify-center">
-                <i class="fa-solid fa-xmark text-lg"></i>
-            </button>
-            <div class="grid grid-cols-1 md:grid-cols-2">
-                <div class="h-64 md:h-auto bg-obsidian-800 relative">
-                    <img id="modal-img" src="" alt="Build Preview" class="w-full h-full object-cover">
-                    <span id="modal-tag" class="absolute top-4 left-4 px-3 py-1 rounded-lg bg-crimson-600 text-white font-display text-xs font-bold uppercase tracking-wider">Category</span>
-                </div>
-                <div class="p-6 sm:p-8 flex flex-col justify-between space-y-6">
-                    <div>
-                        <p id="modal-code" class="text-xs font-mono text-amber-500 uppercase tracking-widest mb-1">BUILD #001</p>
-                        <h3 id="modal-title" class="text-2xl font-display font-bold text-white mb-3">Build Name</h3>
-                        <p id="modal-desc" class="text-zinc-400 text-sm leading-relaxed">Mechanical specifications.</p>
-                        
-                        <div class="mt-6 pt-6 border-t border-zinc-800/80 space-y-3">
-                            <div class="flex justify-between text-xs">
-                                <span class="text-zinc-500 uppercase font-semibold">Displacement:</span>
-                                <span id="modal-displacement" class="text-zinc-200 font-mono">100cc GY6 Big Bore</span>
-                            </div>
-                            <div class="flex justify-between text-xs">
-                                <span class="text-zinc-500 uppercase font-semibold">Key Specs:</span>
-                                <span id="modal-mods" class="text-zinc-200 font-mono">Nibbi Carb / CVT / Pipe</span>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="#calculator" id="modal-cta" class="w-full py-3.5 px-6 rounded-xl bg-crimson-600 hover:bg-crimson-500 text-white font-display font-bold text-sm uppercase tracking-wider text-center transition-all block">
-                        Estimate Labor & Deposit
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- Hazard Accent Bar -->
     <div class="h-1.5 w-full caution-stripes"></div>
 
@@ -161,12 +125,15 @@
                     <a href="#rates" class="text-sm font-medium text-zinc-400 hover:text-white transition-colors">Labor Rates</a>
                     <a href="#services" class="text-sm font-medium text-zinc-400 hover:text-white transition-colors">Services</a>
                     <a href="#calculator" class="text-sm font-medium text-zinc-400 hover:text-white transition-colors">Deposit Estimator</a>
-                    <a href="#lineup" class="text-sm font-medium text-zinc-400 hover:text-white transition-colors">The Lineup</a>
                     <a href="#policies" class="text-sm font-medium text-zinc-400 hover:text-white transition-colors">Shop Location</a>
                 </div>
 
                 <!-- Call to Action -->
                 <div class="hidden md:flex items-center space-x-4">
+                    <a href="tel:4793970534" class="px-4 py-2.5 rounded-xl bg-obsidian-800 hover:bg-obsidian-700 text-zinc-200 border border-zinc-700 font-mono text-xs flex items-center space-x-2 transition-all">
+                        <i class="fa-solid fa-phone text-amber-400"></i>
+                        <span>(479) 397-0534</span>
+                    </a>
                     <a href="#calculator" class="px-5 py-2.5 rounded-xl bg-crimson-600 hover:bg-crimson-500 text-white font-display text-xs font-bold uppercase tracking-wider shadow-lg shadow-crimson-600/25 transition-all transform hover:-translate-y-0.5 flex items-center space-x-2">
                         <span>Estimate Work Order</span>
                         <i class="fa-solid fa-calculator text-amber-300"></i>
@@ -187,9 +154,11 @@
             <a href="#rates" class="block px-4 py-2.5 rounded-xl text-sm font-semibold text-zinc-300 hover:bg-obsidian-800 hover:text-white">Shop Labor Rates</a>
             <a href="#services" class="block px-4 py-2.5 rounded-xl text-sm font-semibold text-zinc-300 hover:bg-obsidian-800 hover:text-white">50cc–250cc Services</a>
             <a href="#calculator" class="block px-4 py-2.5 rounded-xl text-sm font-semibold text-zinc-300 hover:bg-obsidian-800 hover:text-white">Labor & Deposit Calculator</a>
-            <a href="#lineup" class="block px-4 py-2.5 rounded-xl text-sm font-semibold text-zinc-300 hover:bg-obsidian-800 hover:text-white">The Lineup (Builds)</a>
             <a href="#policies" class="block px-4 py-2.5 rounded-xl text-sm font-semibold text-zinc-300 hover:bg-obsidian-800 hover:text-white">Shop Policies & Address</a>
-            <div class="pt-3">
+            <div class="pt-3 space-y-2">
+                <a href="tel:4793970534" class="w-full block text-center px-5 py-3 rounded-xl bg-obsidian-800 text-zinc-200 border border-zinc-700 font-mono text-xs font-bold">
+                    Call / Text: (479) 397-0534
+                </a>
                 <a href="#calculator" class="w-full block text-center px-5 py-3.5 rounded-xl bg-crimson-600 text-white font-display text-xs font-bold uppercase tracking-wider">
                     Estimate Labor & Deposit
                 </a>
@@ -233,9 +202,9 @@
                             <i class="fa-solid fa-sliders"></i>
                             <span>Labor & Deposit Calculator</span>
                         </a>
-                        <a href="#lineup" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-obsidian-800 hover:bg-obsidian-700 text-zinc-200 font-display font-bold text-sm uppercase tracking-wider border border-zinc-700 transition-all flex items-center justify-center space-x-3">
-                            <i class="fa-solid fa-fire-flame-simple text-amber-500"></i>
-                            <span>See The Lineup</span>
+                        <a href="#services" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-obsidian-800 hover:bg-obsidian-700 text-zinc-200 font-display font-bold text-sm uppercase tracking-wider border border-zinc-700 transition-all flex items-center justify-center space-x-3">
+                            <i class="fa-solid fa-wrench text-amber-500"></i>
+                            <span>Explore Services</span>
                         </a>
                     </div>
 
@@ -490,7 +459,7 @@
                             </div>
                             <div>
                                 <label for="rider-phone" class="block text-xs font-mono uppercase tracking-wider text-zinc-300 mb-1.5">Phone / Text *</label>
-                                <input type="tel" id="rider-phone" required placeholder="(479) 555-0194" class="w-full px-4 py-3 rounded-xl bg-obsidian-950 border border-zinc-700 text-white text-sm focus:outline-none focus:border-crimson-500">
+                                <input type="tel" id="rider-phone" required placeholder="(479) 397-0534" class="w-full px-4 py-3 rounded-xl bg-obsidian-950 border border-zinc-700 text-white text-sm focus:outline-none focus:border-crimson-500">
                             </div>
                         </div>
 
@@ -707,122 +676,36 @@
         </div>
     </section>
 
-    <!-- 5. Showcase: The Lineup -->
-    <section id="lineup" class="py-24 bg-obsidian-950 border-b border-zinc-900">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
-                <div>
-                    <span class="text-crimson-500 font-mono text-xs uppercase tracking-widest block mb-2">// 04. SMALL-BORE BUILDS</span>
-                    <h2 class="text-3xl sm:text-5xl font-display font-extrabold text-white uppercase tracking-tight">
-                        The <span class="text-crimson-500">Lineup.</span>
-                    </h2>
-                </div>
-
-                <div class="flex flex-wrap gap-2" id="portfolio-filters">
-                    <button data-filter="all" class="filter-btn active px-4 py-2 rounded-xl bg-crimson-600 text-white font-display text-xs font-bold uppercase tracking-wider transition-all">
-                        All Builds
-                    </button>
-                    <button data-filter="scooter" class="filter-btn px-4 py-2 rounded-xl bg-obsidian-800 hover:bg-obsidian-700 text-zinc-300 font-display text-xs font-bold uppercase tracking-wider border border-zinc-700 transition-all">
-                        GY6 Scooters
-                    </button>
-                    <button data-filter="chopper" class="filter-btn px-4 py-2 rounded-xl bg-obsidian-800 hover:bg-obsidian-700 text-zinc-300 font-display text-xs font-bold uppercase tracking-wider border border-zinc-700 transition-all">
-                        250cc Customs
-                    </button>
-                    <button data-filter="mini" class="filter-btn px-4 py-2 rounded-xl bg-obsidian-800 hover:bg-obsidian-700 text-zinc-300 font-display text-xs font-bold uppercase tracking-wider border border-zinc-700 transition-all">
-                        Pit & Mini Bikes
-                    </button>
-                </div>
-            </div>
-
-            <!-- Lineup Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="portfolio-grid">
-                <!-- Build 1 -->
-                <div class="portfolio-item group relative rounded-2xl overflow-hidden bg-obsidian-900 border border-zinc-800 cursor-pointer"
-                     data-category="scooter"
-                     onclick="openModal('BUILD #014', '100cc GY6 Big Bore Sleeper Scooter', 'GY6 Big Bore', '50mm 100cc big bore cylinder with big-valve head, A9 performance cam, 24mm Nibbi flat-slide carb, unrestricted CDI, and tuned CVT.', '100cc 139QMB GY6', 'Big-Valve Head / Nibbi Carb / CVT Tune', 'https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=900&q=80')">
-                    <div class="h-72 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1558981403-c5f9899a28bc?auto=format&fit=crop&w=900&q=80" 
-                             onerror="this.src='https://placehold.co/600x400/14141b/dc2626?text=100CC+GY6+SLEEPER'"
-                             alt="100cc Big Bore Sleeper Scooter" 
-                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
-                    </div>
-                    <div class="absolute inset-0 bg-gradient-to-t from-obsidian-950 via-obsidian-950/45 to-transparent opacity-95"></div>
-                    <div class="absolute bottom-5 left-5 right-5">
-                        <p class="text-xs font-mono text-amber-400">BUILD #014 // 50CC → 100CC</p>
-                        <h3 class="text-xl font-display font-bold text-white mt-0.5">100cc GY6 Sleeper Scooter</h3>
-                        <p class="text-xs text-zinc-300 mt-1">Ported big-valve head, A9 cam, and custom-tuned CVT.</p>
-                    </div>
-                </div>
-
-                <!-- Build 2 -->
-                <div class="portfolio-item group relative rounded-2xl overflow-hidden bg-obsidian-900 border border-zinc-800 cursor-pointer"
-                     data-category="chopper"
-                     onclick="openModal('BUILD #029', '250cc Hardtail Mini-Chopper', '250cc Chopper', 'Custom hardtail frame holding a 250cc single. Stripped peanut tank, custom straight pipe, and 30mm PWK carburetor.', '250cc 5-Speed Manual', 'Hardtail Frame Mod / Slash-Cut Pipe', 'https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=900&q=80')">
-                    <div class="h-72 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=900&q=80" 
-                             onerror="this.src='https://placehold.co/600x400/14141b/f59e0b?text=250CC+HARDTAIL+CHOPPER'"
-                             alt="250cc Custom Chopper Build" 
-                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
-                    </div>
-                    <div class="absolute inset-0 bg-gradient-to-t from-obsidian-950 via-obsidian-950/45 to-transparent opacity-95"></div>
-                    <div class="absolute bottom-5 left-5 right-5">
-                        <p class="text-xs font-mono text-amber-400">BUILD #029 // 250CC STREET & CHOP</p>
-                        <h3 class="text-xl font-display font-bold text-white mt-0.5">250cc Hardtail Bobber</h3>
-                        <p class="text-xs text-zinc-300 mt-1">Custom hardtail chassis, velocity stack, and straight pipes.</p>
-                    </div>
-                </div>
-
-                <!-- Build 3 -->
-                <div class="portfolio-item group relative rounded-2xl overflow-hidden bg-obsidian-900 border border-zinc-800 cursor-pointer"
-                     data-category="mini"
-                     onclick="openModal('BUILD #038', 'Mad Max 212cc Mini Bike', 'Mini Bike', 'Torched raw steel mini bike frame. Billet rod, billet flywheel, 26lb springs, Mod2 cam, and torque converter.', '212cc Horizontal-Shaft Stage 3', 'Billet Internals / Juggernaut TC', 'https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=900&q=80')">
-                    <div class="h-72 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=900&q=80" 
-                             onerror="this.src='https://placehold.co/600x400/14141b/dc2626?text=MAD+MAX+MINI+BIKE'"
-                             alt="Stripped Mini Bike" 
-                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
-                    </div>
-                    <div class="absolute inset-0 bg-gradient-to-t from-obsidian-950 via-obsidian-950/45 to-transparent opacity-95"></div>
-                    <div class="absolute bottom-5 left-5 right-5">
-                        <p class="text-xs font-mono text-amber-400">BUILD #038 // HORIZONTAL SHAFT</p>
-                        <h3 class="text-xl font-display font-bold text-white mt-0.5">"Mad Max" 212cc Mini</h3>
-                        <p class="text-xs text-zinc-300 mt-1">Billet internals, governor delete, and custom exhaust.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 6. Shop Policies & Location -->
-    <section id="policies" class="py-20 bg-obsidian-900 border-b border-zinc-800">
+    <!-- 5. Shop Policies & Location -->
+    <section id="policies" class="py-20 bg-obsidian-950 border-b border-zinc-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
                 <!-- Shop Rules -->
                 <div class="lg:col-span-7 space-y-6">
                     <div class="inline-flex items-center space-x-2 text-amber-400 font-mono text-xs uppercase tracking-widest">
                         <i class="fa-solid fa-gavel"></i>
-                        <span>// 05. SHOP POLICIES & DEPOSIT RULES</span>
+                        <span>// 04. SHOP POLICIES & DEPOSIT RULES</span>
                     </div>
                     <h2 class="text-3xl sm:text-4xl font-display font-extrabold text-white uppercase tracking-tight">
                         Clear Terms. <span class="text-crimson-500">No BS.</span>
                     </h2>
 
                     <div class="space-y-4">
-                        <div class="p-5 rounded-xl bg-obsidian-950 border-l-4 border-crimson-600 border border-zinc-800">
+                        <div class="p-5 rounded-xl bg-obsidian-900 border-l-4 border-crimson-600 border border-zinc-800">
                             <h4 class="font-display font-bold text-white text-sm uppercase">1. Parts Deposit: $50 + $0.50 Per CC</h4>
                             <p class="text-xs text-zinc-400 mt-1 leading-relaxed">
                                 Every job requires a deposit calculated as <strong class="text-zinc-200">$50 plus $0.50 per engine cc</strong> upon drop-off. This deposit directly covers the parts required for your build. If the actual parts total exceeds your deposit, you pay the remainder.
                             </p>
                         </div>
 
-                        <div class="p-5 rounded-xl bg-obsidian-950 border-l-4 border-amber-500 border border-zinc-800">
+                        <div class="p-5 rounded-xl bg-obsidian-900 border-l-4 border-amber-500 border border-zinc-800">
                             <h4 class="font-display font-bold text-white text-sm uppercase">2. Upfront Hourly Labor Rates</h4>
                             <p class="text-xs text-zinc-400 mt-1 leading-relaxed">
                                 General repair is billed at <strong class="text-zinc-200">$85/hr</strong>; performance and big bore tuning is billed at <strong class="text-zinc-200">$100/hr</strong>; fully custom ground-up builds are billed at <strong class="text-zinc-200">$200/hr</strong> (coming soon).
                             </p>
                         </div>
 
-                        <div class="p-5 rounded-xl bg-obsidian-950 border-l-4 border-zinc-600 border border-zinc-800">
+                        <div class="p-5 rounded-xl bg-obsidian-900 border-l-4 border-zinc-600 border border-zinc-800">
                             <h4 class="font-display font-bold text-white text-sm uppercase">3. Completion & Pickup Policy</h4>
                             <p class="text-xs text-zinc-400 mt-1 leading-relaxed">
                                 Once work is finished, you have 7 calendar days to settle remaining labor/parts balances and pick up your machine. Drop-off and pick-up are strictly by appointment.
@@ -833,7 +716,7 @@
 
                 <!-- Business Address Box -->
                 <div class="lg:col-span-5">
-                    <div class="p-7 sm:p-8 rounded-2xl bg-obsidian-950 border border-zinc-800 shadow-2xl space-y-6">
+                    <div class="p-7 sm:p-8 rounded-2xl bg-obsidian-900 border border-zinc-800 shadow-2xl space-y-6">
                         <div class="flex items-center justify-between border-b border-zinc-800 pb-4">
                             <div>
                                 <span class="text-xs font-mono text-crimson-500 uppercase">OFFICIAL SHOP LOCATION</span>
@@ -866,7 +749,15 @@
                                 <i class="fa-solid fa-envelope text-crimson-500 mt-1"></i>
                                 <div>
                                     <p class="font-display font-bold text-white uppercase">Direct Shop Dispatch</p>
-                                    <p class="text-xs font-mono text-zinc-300 mt-0.5" id="shop-email">shop@criminallycustombuilds.com</p>
+                                    <a href="mailto:CCBuilds@pm.me" class="text-xs font-mono text-zinc-300 hover:text-white mt-0.5 block transition-colors" id="shop-email">CCBuilds@pm.me</a>
+                                </div>
+                            </div>
+
+                            <div class="flex items-start space-x-3.5">
+                                <i class="fa-solid fa-phone text-amber-500 mt-1"></i>
+                                <div>
+                                    <p class="font-display font-bold text-white uppercase">Shop Phone / Text</p>
+                                    <a href="tel:4793970534" class="text-xs font-mono text-amber-400 hover:underline mt-0.5 block font-bold">(479) 397-0534</a>
                                 </div>
                             </div>
                         </div>
@@ -891,13 +782,13 @@
                     <img src="https://i.postimg.cc/SR6BPY2D/1791984296717-1.png" alt="Criminally Custom Builds" class="w-10 h-10 rounded-full border border-amber-500/80 object-cover">
                     <div>
                         <span class="text-base font-display font-extrabold tracking-wider text-white">CRIMINALLY CUSTOM BUILDS (CC BUILDS)</span>
-                        <p class="text-xs text-zinc-500">1610 Madison 6345, Wesley, AR 72773 // 50cc–250cc Garage</p>
+                        <p class="text-xs text-zinc-500">1610 Madison 6345, Wesley, AR 72773 // Phone: (479) 397-0534</p>
                     </div>
                 </div>
 
                 <div class="text-center md:text-right text-xs font-mono text-zinc-500 space-y-1">
                     <p>Labor: $85/hr Repair | $100/hr Performance | $200/hr Custom (Coming Soon)</p>
-                    <p>Deposit: $50 + $0.50/cc (Covers parts; customer pays remainder)</p>
+                    <p>Deposit: $50 + $0.50/cc | Email: CCBuilds@pm.me</p>
                 </div>
             </div>
         </div>
@@ -986,52 +877,6 @@
         hoursSlider.addEventListener('input', updateCalculator);
 
         updateCalculator();
-
-        // Lineup Modal
-        const modal = document.getElementById('lightbox-modal');
-        const closeModalBtn = document.getElementById('close-modal');
-        const modalCta = document.getElementById('modal-cta');
-
-        function openModal(code, title, category, desc, displacement, mods, imgUrl) {
-            document.getElementById('modal-code').textContent = code;
-            document.getElementById('modal-title').textContent = title;
-            document.getElementById('modal-tag').textContent = category;
-            document.getElementById('modal-desc').textContent = desc;
-            document.getElementById('modal-displacement').textContent = displacement;
-            document.getElementById('modal-mods').textContent = mods;
-            document.getElementById('modal-img').src = imgUrl;
-            modal.classList.remove('hidden');
-        }
-
-        closeModalBtn.addEventListener('click', () => modal.classList.add('hidden'));
-        modalCta.addEventListener('click', () => modal.classList.add('hidden'));
-        modal.addEventListener('click', (e) => {
-            if (e.target === modal) modal.classList.add('hidden');
-        });
-
-        // Portfolio Filtering
-        const filterBtns = document.querySelectorAll('.filter-btn');
-        const portfolioItems = document.querySelectorAll('.portfolio-item');
-
-        filterBtns.forEach(btn => {
-            btn.addEventListener('click', () => {
-                filterBtns.forEach(b => {
-                    b.classList.remove('bg-crimson-600', 'text-white');
-                    b.classList.add('bg-obsidian-800', 'text-zinc-300');
-                });
-                btn.classList.remove('bg-obsidian-800', 'text-zinc-300');
-                btn.classList.add('bg-crimson-600', 'text-white');
-
-                const filterValue = btn.getAttribute('data-filter');
-                portfolioItems.forEach(item => {
-                    if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
-                        item.classList.remove('hidden');
-                    } else {
-                        item.classList.add('hidden');
-                    }
-                });
-            });
-        });
 
         // Form Submit
         const quoteForm = document.getElementById('quote-form');
