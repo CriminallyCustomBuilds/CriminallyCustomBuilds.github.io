@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Criminally Custom Builds | 50cc–250cc Garage | Wesley, AR</title>
-    
-    <!-- Google Search Console Verification -->
     <meta name="google-site-verification" content="0wrhAEaLqsKlxr77CC12N0DWpNW15Y8AifQ9fsDt8eU" />
 
     <!-- SEO & Social Meta Tags -->
