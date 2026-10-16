@@ -276,7 +276,7 @@
                     </h2>
                 </div>
                 <p class="text-zinc-400 text-sm max-w-md mt-2 md:mt-0 font-mono">
-                    Clear hourly labor tiers. We don't mark up or list parts prices—your deposit goes straight toward covering parts.
+                    Clear hourly labor tiers and your deposit goes straight toward covering parts.
                 </p>
             </div>
 
