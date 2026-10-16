@@ -9,22 +9,22 @@
     <meta name="description" content="Criminally Custom Builds - Northwest Arkansas garage specializing exclusively in 50cc to 250cc small bike engines, GY6 big bores, Predator swaps, and custom builds. Call/text (479) 397-0534.">
     <meta property="og:title" content="Criminally Custom Builds | Unapologetically Modified">
     <meta property="og:description" content="50cc–250cc small engine performance and repair shop located at 1610 Madison 6345, Wesley, AR. Call/text (479) 397-0534.">
-    <meta property="og:image" content="[https://i.postimg.cc/SR6BPY2D/1791984296717-1.png](https://i.postimg.cc/SR6BPY2D/1791984296717-1.png)">
+    <meta property="og:image" content="https://i.postimg.cc/SR6BPY2D/1791984296717-1.png">
     <meta property="og:type" content="website">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="[https://i.postimg.cc/SR6BPY2D/1791984296717-1.png](https://i.postimg.cc/SR6BPY2D/1791984296717-1.png)">
+    <link rel="icon" type="image/png" href="https://i.postimg.cc/SR6BPY2D/1791984296717-1.png">
 
     <!-- Tailwind CSS CDN -->
-    <script src="[https://cdn.tailwindcss.com](https://cdn.tailwindcss.com)"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- Google Fonts -->
-    <link rel="preconnect" href="[https://fonts.googleapis.com](https://fonts.googleapis.com)">
-    <link rel="preconnect" href="[https://fonts.gstatic.com](https://fonts.gstatic.com)" crossorigin>
-    <link href="[https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@500;700&family=Space+Grotesk:wght@600;700;800&display=swap](https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@500;700&family=Space+Grotesk:wght@600;700;800&display=swap)" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@500;700&family=Space+Grotesk:wght@600;700;800&display=swap" rel="stylesheet">
     
     <!-- FontAwesome Icons -->
-    <link rel="stylesheet" href="[https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css)">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <script>
         tailwind.config = {
@@ -83,6 +83,9 @@
                 linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
                 linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
         }
+        .red-glow:hover {
+            box-shadow: 0 0 28px -5px rgba(220, 38, 38, 0.45);
+        }
     </style>
 </head>
 <body class="bg-obsidian-950 text-zinc-100 antialiased selection:bg-crimson-600 selection:text-white overflow-x-hidden">
@@ -107,7 +110,7 @@
             <div class="flex items-center justify-between h-20">
                 <!-- Brand Logo -->
                 <a href="#home" class="flex items-center space-x-3.5 group">
-                    <img src="[https://i.postimg.cc/SR6BPY2D/1791984296717-1.png](https://i.postimg.cc/SR6BPY2D/1791984296717-1.png)" alt="Criminally Custom Builds Logo" class="w-12 h-12 rounded-full border-2 border-amber-500/80 object-cover shadow-lg group-hover:scale-105 transition-transform">
+                    <img src="https://i.postimg.cc/SR6BPY2D/1791984296717-1.png" alt="Criminally Custom Builds Logo" class="w-12 h-12 rounded-full border-2 border-amber-500/80 object-cover shadow-lg group-hover:scale-105 transition-transform">
                     <div>
                         <div class="flex items-center space-x-2">
                             <span class="text-xl font-display font-extrabold tracking-wider text-white leading-none">CRIMINALLY CUSTOM</span>
@@ -237,7 +240,7 @@
                         </div>
                         
                         <div class="p-8 text-center bg-gradient-to-b from-obsidian-950 to-obsidian-900 flex flex-col items-center">
-                            <img src="[https://i.postimg.cc/SR6BPY2D/1791984296717-1.png](https://i.postimg.cc/SR6BPY2D/1791984296717-1.png)" alt="Criminally Custom Builds" class="w-48 h-48 sm:w-56 sm:h-56 object-contain rounded-2xl shadow-2xl border border-zinc-800/80 p-2 bg-obsidian-950/60 mb-4">
+                            <img src="https://i.postimg.cc/SR6BPY2D/1791984296717-1.png" alt="Criminally Custom Builds" class="w-48 h-48 sm:w-56 sm:h-56 object-contain rounded-2xl shadow-2xl border border-zinc-800/80 p-2 bg-obsidian-950/60 mb-4">
                             <h3 class="text-xl font-display font-bold text-white uppercase">Small-Bore Syndicate</h3>
                             <p class="text-xs font-mono text-zinc-400 mt-1">1610 Madison 6345, Wesley, AR 72773</p>
                             <a href="tel:4793970534" class="text-sm font-mono text-amber-400 font-bold mt-2 hover:underline flex items-center space-x-1.5">
@@ -380,8 +383,8 @@
                 <div class="rounded-2xl bg-obsidian-900 border border-zinc-800 hover:border-crimson-500/60 transition-all duration-300 flex flex-col justify-between overflow-hidden group red-glow">
                     <div>
                         <div class="h-52 overflow-hidden relative bg-obsidian-950">
-                            <img src="[https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80](https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80)" 
-                                 onerror="this.src='[https://placehold.co/600x400/14141b/dc2626?text=BIG+BORE+TOP+ENDS](https://placehold.co/600x400/14141b/dc2626?text=BIG+BORE+TOP+ENDS)'"
+                            <img src="https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80" 
+                                 onerror="this.src='https://placehold.co/600x400/14141b/dc2626?text=BIG+BORE+TOP+ENDS'"
                                  alt="Big Bore Cylinder and Top End Build" 
                                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-85">
                             <div class="absolute inset-0 bg-gradient-to-t from-obsidian-900 via-obsidian-900/30 to-transparent"></div>
@@ -417,12 +420,12 @@
                 <div class="rounded-2xl bg-obsidian-900 border border-zinc-800 hover:border-amber-500/60 transition-all duration-300 flex flex-col justify-between overflow-hidden group red-glow">
                     <div>
                         <div class="h-52 overflow-hidden relative bg-obsidian-950">
-                            <img src="[https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&w=800&q=80](https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&w=800&q=80)" 
-                                 onerror="this.src='[https://placehold.co/600x400/14141b/f59e0b?text=CARB+%26+CVT+TUNING](https://placehold.co/600x400/14141b/f59e0b?text=CARB+%26+CVT+TUNING)'"
+                            <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&w=800&q=80" 
+                                 onerror="this.src='https://placehold.co/600x400/14141b/f59e0b?text=CARB+%26+CVT+TUNING'"
                                  alt="Carburetor and CVT Tuning" 
                                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-85">
                             <div class="absolute inset-0 bg-gradient-to-t from-obsidian-900 via-obsidian-900/30 to-transparent"></div>
-                            <span class="absolute top-4 left-4 px-3 py-1 rounded-lg bg-obsidian-900/90 border border-zinc-700 text-amber-400 font-mono text-xs font-bold">$100/HR LABOR</span>
+                            <span class="absolute top-4 left-4 px-3 py-1 rounded-lg bg-obsidian-950/90 border border-zinc-700 text-amber-400 font-mono text-xs font-bold">$100/HR LABOR</span>
                         </div>
                         <div class="p-7">
                             <div class="flex items-center justify-between mb-3">
@@ -454,12 +457,12 @@
                 <div class="rounded-2xl bg-obsidian-900 border border-zinc-800 hover:border-crimson-500/60 transition-all duration-300 flex flex-col justify-between overflow-hidden group red-glow">
                     <div>
                         <div class="h-52 overflow-hidden relative bg-obsidian-950">
-                            <img src="[https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80](https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80)" 
-                                 onerror="this.src='[https://placehold.co/600x400/14141b/dc2626?text=SWAPS+%26+FABRICATION](https://placehold.co/600x400/14141b/dc2626?text=SWAPS+%26+FABRICATION)'"
+                            <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80" 
+                                 onerror="this.src='https://placehold.co/600x400/14141b/dc2626?text=SWAPS+%26+FABRICATION'"
                                  alt="Custom Small Bike Builds" 
                                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-85">
                             <div class="absolute inset-0 bg-gradient-to-t from-obsidian-900 via-obsidian-900/30 to-transparent"></div>
-                            <span class="absolute top-4 left-4 px-3 py-1 rounded-lg bg-obsidian-900/90 border border-zinc-700 text-amber-400 font-mono text-xs font-bold">$200/HR (COMING SOON)</span>
+                            <span class="absolute top-4 left-4 px-3 py-1 rounded-lg bg-obsidian-950/90 border border-zinc-700 text-amber-400 font-mono text-xs font-bold">$200/HR (COMING SOON)</span>
                         </div>
                         <div class="p-7">
                             <div class="flex items-center justify-between mb-3">
@@ -782,7 +785,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col md:flex-row items-center justify-between gap-6">
                 <div class="flex items-center space-x-3">
-                    <img src="[https://i.postimg.cc/SR6BPY2D/1791984296717-1.png](https://i.postimg.cc/SR6BPY2D/1791984296717-1.png)" alt="Criminally Custom Builds" class="w-10 h-10 rounded-full border border-amber-500/80 object-cover">
+                    <img src="https://i.postimg.cc/SR6BPY2D/1791984296717-1.png" alt="Criminally Custom Builds" class="w-10 h-10 rounded-full border border-amber-500/80 object-cover">
                     <div>
                         <span class="text-base font-display font-extrabold tracking-wider text-white">CRIMINALLY CUSTOM BUILDS (CC BUILDS)</span>
                         <p class="text-xs text-zinc-500">1610 Madison 6345, Wesley, AR 72773 // 50cc–250cc Garage</p>
