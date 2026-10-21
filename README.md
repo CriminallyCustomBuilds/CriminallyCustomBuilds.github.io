@@ -226,7 +226,7 @@
                     </div>
                 </div>
 
-                <!-- Featured Card with Hosted Logo -->
+                <!-- Featured Card with Updated Shop Title -->
                 <div class="lg:col-span-5 relative">
                     <div class="absolute -inset-2 bg-gradient-to-r from-crimson-600 to-amber-500 rounded-3xl blur-2xl opacity-25"></div>
                     <div class="relative bg-obsidian-900 border border-zinc-800 rounded-2xl overflow-hidden shadow-2xl">
@@ -241,7 +241,7 @@
                         
                         <div class="p-8 text-center bg-gradient-to-b from-obsidian-950 to-obsidian-900 flex flex-col items-center">
                             <img src="https://i.postimg.cc/SR6BPY2D/1791984296717-1.png" alt="Criminally Custom Builds" class="w-48 h-48 sm:w-56 sm:h-56 object-contain rounded-2xl shadow-2xl border border-zinc-800/80 p-2 bg-obsidian-950/60 mb-4">
-                            <h3 class="text-xl font-display font-bold text-white uppercase">Small-Bore Syndicate</h3>
+                            <h3 class="text-xl font-display font-bold text-white uppercase">Criminally Custom Builds</h3>
                             <p class="text-xs font-mono text-zinc-400 mt-1">1610 Madison 6345, Wesley, AR 72773</p>
                             <a href="tel:4793970534" class="text-sm font-mono text-amber-400 font-bold mt-2 hover:underline flex items-center space-x-1.5">
                                 <i class="fa-solid fa-phone text-xs"></i>
@@ -377,7 +377,7 @@
             </div>
 
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-                <!-- Form Inputs (Connected to Formspree endpoint meaeyapa) -->
+                <!-- Form Inputs -->
                 <form id="quote-form" action="https://formspree.io/f/meaeyapa" method="POST" class="lg:col-span-7 p-6 sm:p-9 rounded-2xl bg-obsidian-900 border border-zinc-800 shadow-2xl space-y-6">
                     <!-- Hidden Formspree Payload Fields -->
                     <input type="hidden" name="Labor_Tier" id="hidden-rate" value="$100/hr (Performance / Big Bore)">
