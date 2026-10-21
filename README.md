@@ -7,7 +7,7 @@
     <meta name="google-site-verification" content="0wrhAEaLqsKlxr77CC12N0DWpNW15Y8AifQ9fsDt8eU" />
 
     <!-- SEO & Social Meta Tags -->
-    <meta name="description" content="Criminally Custom Builds - Northwest Arkansas garage specializing exclusively in 50cc to 400cc small bike engines, GY6 big bores, Predator swaps, and custom builds.">
+    <meta name="description" content="Criminally Custom Builds - Northwest Arkansas garage specializing exclusively in 50cc to 400cc small bike engines, GY6 big bores, Predator swaps, and custom builds. Call/text (479) 397-0534.">
     <meta property="og:title" content="Criminally Custom Builds | Unapologetically Modified">
     <meta property="og:description" content="50cc–400cc small engine performance and repair shop located at 1610 Madison 6345, Wesley, AR.">
     <meta property="og:image" content="https://i.postimg.cc/SR6BPY2D/1791984296717-1.png">
@@ -94,7 +94,7 @@
     <!-- Toast Notification -->
     <div id="toast" class="fixed bottom-6 right-6 z-50 transform translate-y-32 opacity-0 transition-all duration-300 bg-obsidian-800 text-white px-6 py-4 rounded-xl shadow-2xl flex items-center space-x-4 border border-crimson-600/60 max-w-sm pointer-events-none">
         <div class="w-10 h-10 rounded-lg bg-crimson-600/20 border border-crimson-500 flex items-center justify-center flex-shrink-0">
-            <i class="fa-solid fa-wrench text-crimson-500 text-lg"></i>
+            <i id="toast-icon" class="fa-solid fa-wrench text-crimson-500 text-lg"></i>
         </div>
         <div>
             <h4 id="toast-title" class="font-display font-bold text-sm uppercase tracking-wider text-white">Work Order Logged</h4>
@@ -243,6 +243,10 @@
                             <img src="https://i.postimg.cc/SR6BPY2D/1791984296717-1.png" alt="Criminally Custom Builds" class="w-48 h-48 sm:w-56 sm:h-56 object-contain rounded-2xl shadow-2xl border border-zinc-800/80 p-2 bg-obsidian-950/60 mb-4">
                             <h3 class="text-xl font-display font-bold text-white uppercase">Small-Bore Syndicate</h3>
                             <p class="text-xs font-mono text-zinc-400 mt-1">1610 Madison 6345, Wesley, AR 72773</p>
+                            <a href="tel:4793970534" class="text-sm font-mono text-amber-400 font-bold mt-2 hover:underline flex items-center space-x-1.5">
+                                <i class="fa-solid fa-phone text-xs"></i>
+                                <span>(479) 397-0534</span>
+                            </a>
                         </div>
 
                         <div class="p-4 bg-obsidian-900 grid grid-cols-3 gap-2 text-center border-t border-zinc-800">
@@ -374,7 +378,16 @@
 
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
                 <!-- Form Inputs -->
-                <form id="quote-form" class="lg:col-span-7 p-6 sm:p-9 rounded-2xl bg-obsidian-900 border border-zinc-800 shadow-2xl space-y-6">
+                <form id="quote-form" action="https://formspree.io/f/CCBuilds@pm.me" method="POST" class="lg:col-span-7 p-6 sm:p-9 rounded-2xl bg-obsidian-900 border border-zinc-800 shadow-2xl space-y-6">
+                    <!-- Hidden Formspree Payload Fields -->
+                    <input type="hidden" name="Labor_Tier" id="hidden-rate" value="$100/hr (Performance / Big Bore)">
+                    <input type="hidden" name="Displacement_CC" id="hidden-cc" value="100 cc">
+                    <input type="hidden" name="Labor_Hours" id="hidden-hours" value="4.0 hrs">
+                    <input type="hidden" name="Parts_Deposit_Due" id="hidden-deposit" value="$100.00">
+                    <input type="hidden" name="Estimated_Labor_Cost" id="hidden-labor" value="$400.00">
+                    <input type="hidden" name="Estimated_Total" id="hidden-total" value="$500.00">
+                    <input type="hidden" name="_subject" value="New Work Order Quote Request // CC Builds">
+
                     <div class="flex items-center justify-between border-b border-zinc-800 pb-4">
                         <span class="font-mono text-xs uppercase tracking-widest text-zinc-400">CC BUILDS // ESTIMATOR</span>
                         <span class="px-2.5 py-1 rounded bg-crimson-600/20 text-crimson-400 border border-crimson-500/30 font-mono text-[11px]">MAX 400CC</span>
@@ -465,21 +478,21 @@
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                             <div>
                                 <label for="rider-name" class="block text-xs font-mono uppercase tracking-wider text-zinc-300 mb-1.5">Your Name *</label>
-                                <input type="text" id="rider-name" required placeholder="Colton Vance" class="w-full px-4 py-3 rounded-xl bg-obsidian-950 border border-zinc-700 text-white text-sm focus:outline-none focus:border-crimson-500">
+                                <input type="text" id="rider-name" name="Customer_Name" required placeholder="Colton Vance" class="w-full px-4 py-3 rounded-xl bg-obsidian-950 border border-zinc-700 text-white text-sm focus:outline-none focus:border-crimson-500">
                             </div>
                             <div>
                                 <label for="rider-phone" class="block text-xs font-mono uppercase tracking-wider text-zinc-300 mb-1.5">Phone / Text *</label>
-                                <input type="tel" id="rider-phone" required placeholder="(479) 397-0534" class="w-full px-4 py-3 rounded-xl bg-obsidian-950 border border-zinc-700 text-white text-sm focus:outline-none focus:border-crimson-500">
+                                <input type="tel" id="rider-phone" name="Phone_Number" required placeholder="(479) 555-0194" class="w-full px-4 py-3 rounded-xl bg-obsidian-950 border border-zinc-700 text-white text-sm focus:outline-none focus:border-crimson-500">
                             </div>
                         </div>
 
                         <div>
                             <label for="build-notes" class="block text-xs font-mono uppercase tracking-wider text-zinc-300 mb-1.5">Bike Model & Work Needed</label>
-                            <textarea id="build-notes" rows="3" placeholder="Tell us your bike model, engine type, and what you want built or repaired..." class="w-full px-4 py-3 rounded-xl bg-obsidian-950 border border-zinc-700 text-white text-sm focus:outline-none focus:border-crimson-500"></textarea>
+                            <textarea id="build-notes" name="Build_Notes" rows="3" placeholder="Tell us your bike model, engine type, and what you want built or repaired..." class="w-full px-4 py-3 rounded-xl bg-obsidian-950 border border-zinc-700 text-white text-sm focus:outline-none focus:border-crimson-500"></textarea>
                         </div>
                     </div>
 
-                    <button type="submit" class="w-full py-4 px-8 rounded-xl bg-crimson-600 hover:bg-crimson-500 text-white font-display font-bold text-sm uppercase tracking-wider shadow-xl shadow-crimson-600/25 transition-all transform hover:-translate-y-0.5 flex items-center justify-center space-x-3">
+                    <button type="submit" id="submit-btn" class="w-full py-4 px-8 rounded-xl bg-crimson-600 hover:bg-crimson-500 text-white font-display font-bold text-sm uppercase tracking-wider shadow-xl shadow-crimson-600/25 transition-all transform hover:-translate-y-0.5 flex items-center justify-center space-x-3">
                         <i class="fa-solid fa-paper-plane"></i>
                         <span>Submit Work Order Request</span>
                     </button>
@@ -824,14 +837,26 @@
         });
 
         // Toast Helper
-        function showToast(title, message) {
+        function showToast(title, message, isError = false) {
             const toast = document.getElementById('toast');
+            const toastIcon = document.getElementById('toast-icon');
             document.getElementById('toast-title').textContent = title;
             document.getElementById('toast-msg').textContent = message;
+            
+            if (isError) {
+                toastIcon.className = "fa-solid fa-triangle-exclamation text-amber-500 text-lg";
+                toast.classList.remove('border-crimson-600/60');
+                toast.classList.add('border-amber-500/60');
+            } else {
+                toastIcon.className = "fa-solid fa-wrench text-crimson-500 text-lg";
+                toast.classList.remove('border-amber-500/60');
+                toast.classList.add('border-crimson-600/60');
+            }
+
             toast.classList.remove('translate-y-32', 'opacity-0');
             setTimeout(() => {
                 toast.classList.add('translate-y-32', 'opacity-0');
-            }, 4500);
+            }, 5500);
         }
 
         // Estimator Calculation Logic
@@ -852,12 +877,21 @@
         const summaryLaborTotal = document.getElementById('summary-labor-total');
         const summaryGrandTotal = document.getElementById('summary-grand-total');
 
+        // Hidden Formspree Input References
+        const hiddenRate = document.getElementById('hidden-rate');
+        const hiddenCc = document.getElementById('hidden-cc');
+        const hiddenHours = document.getElementById('hidden-hours');
+        const hiddenDeposit = document.getElementById('hidden-deposit');
+        const hiddenLabor = document.getElementById('hidden-labor');
+        const hiddenTotal = document.getElementById('hidden-total');
+
         function formatCurrency(num) {
             return '$' + num.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
         }
 
         function updateCalculator() {
-            const selectedRate = parseFloat(document.querySelector('input[name="service_rate"]:checked').value);
+            const selectedRadio = document.querySelector('input[name="service_rate"]:checked');
+            const selectedRate = selectedRadio ? parseFloat(selectedRadio.value) : 100;
             const cc = parseFloat(ccSlider.value) || 50;
             const hours = parseFloat(hoursSlider.value) || 0;
 
@@ -873,8 +907,9 @@
             formulaDeposit.textContent = formatCurrency(totalDeposit);
             summaryDepositTotal.textContent = formatCurrency(totalDeposit);
 
+            const hoursFormatted = (hours % 1 === 0 ? hours : hours.toFixed(1)) + ' hrs';
             hoursDisplay.textContent = hours % 1 === 0 ? hours : hours.toFixed(1);
-            summaryHoursLabel.textContent = (hours % 1 === 0 ? hours : hours.toFixed(1)) + ' hrs';
+            summaryHoursLabel.textContent = hoursFormatted;
 
             let rateText = `$${selectedRate}/hr (General Repair)`;
             if (selectedRate === 100) rateText = `$100/hr (Performance / Big Bore)`;
@@ -883,6 +918,14 @@
             summaryRateLabel.textContent = rateText;
             summaryLaborTotal.textContent = formatCurrency(laborTotal);
             summaryGrandTotal.textContent = formatCurrency(grandTotal);
+
+            // Sync hidden inputs for Formspree email payload
+            hiddenRate.value = rateText;
+            hiddenCc.value = cc + ' cc';
+            hiddenHours.value = hoursFormatted;
+            hiddenDeposit.value = formatCurrency(totalDeposit);
+            hiddenLabor.value = formatCurrency(laborTotal);
+            hiddenTotal.value = formatCurrency(grandTotal);
         }
 
         rateRadios.forEach(radio => radio.addEventListener('change', updateCalculator));
@@ -891,16 +934,54 @@
 
         updateCalculator();
 
-        // Form Submit
+        // Asynchronous Formspree Submission
         const quoteForm = document.getElementById('quote-form');
-        quoteForm.addEventListener('submit', (e) => {
+        const submitBtn = document.getElementById('submit-btn');
+
+        quoteForm.addEventListener('submit', async (e) => {
             e.preventDefault();
-            const riderName = document.getElementById('rider-name').value;
-            const deposit = summaryDepositTotal.textContent;
-            showToast(
-                `Work Order Logged // ${riderName}`,
-                `Request submitted. Required parts deposit: ${deposit}. Drop-off at 1610 Madison 6345, Wesley, AR.`
-            );
+            updateCalculator();
+
+            const originalBtnHtml = submitBtn.innerHTML;
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i><span>Sending Ticket...</span>';
+
+            const formData = new FormData(quoteForm);
+
+            try {
+                const response = await fetch(quoteForm.action, {
+                    method: 'POST',
+                    body: formData,
+                    headers: { 'Accept': 'application/json' }
+                });
+
+                if (response.ok) {
+                    const riderName = document.getElementById('rider-name').value;
+                    const deposit = summaryDepositTotal.textContent;
+                    showToast(
+                        `Work Order Sent // ${riderName}`,
+                        `Ticket dispatched to CCBuilds@pm.me. Est. Parts Deposit: ${deposit}.`
+                    );
+                    quoteForm.reset();
+                    // Reset to default performance radio
+                    document.getElementById('rate-performance').checked = true;
+                    ccSlider.value = 100;
+                    hoursSlider.value = 4;
+                    updateCalculator();
+                } else {
+                    const data = await response.json();
+                    if (data.errors) {
+                        showToast('Submission Issue', data.errors.map(err => err.message).join(', '), true);
+                    } else {
+                        showToast('Activation Needed', 'Please check CCBuilds@pm.me to confirm form activation.', true);
+                    }
+                }
+            } catch (err) {
+                showToast('Dispatch Error', 'Could not send automatically. Call/text (479) 397-0534 directly.', true);
+            } finally {
+                submitBtn.disabled = false;
+                submitBtn.innerHTML = originalBtnHtml;
+            }
         });
     </script>
 </body>
