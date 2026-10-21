@@ -377,8 +377,8 @@
             </div>
 
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-                <!-- Form Inputs -->
-                <form id="quote-form" action="https://formspree.io/f/CCBuilds@pm.me" method="POST" class="lg:col-span-7 p-6 sm:p-9 rounded-2xl bg-obsidian-900 border border-zinc-800 shadow-2xl space-y-6">
+                <!-- Form Inputs (Connected to Formspree endpoint meaeyapa) -->
+                <form id="quote-form" action="https://formspree.io/f/meaeyapa" method="POST" class="lg:col-span-7 p-6 sm:p-9 rounded-2xl bg-obsidian-900 border border-zinc-800 shadow-2xl space-y-6">
                     <!-- Hidden Formspree Payload Fields -->
                     <input type="hidden" name="Labor_Tier" id="hidden-rate" value="$100/hr (Performance / Big Bore)">
                     <input type="hidden" name="Displacement_CC" id="hidden-cc" value="100 cc">
@@ -934,7 +934,7 @@
 
         updateCalculator();
 
-        // Asynchronous Formspree Submission
+        // Asynchronous Formspree AJAX Submission
         const quoteForm = document.getElementById('quote-form');
         const submitBtn = document.getElementById('submit-btn');
 
@@ -944,7 +944,7 @@
 
             const originalBtnHtml = submitBtn.innerHTML;
             submitBtn.disabled = true;
-            submitBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i><span>Sending Ticket...</span>';
+            submitBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin mr-2"></i><span>Sending Ticket...</span>';
 
             const formData = new FormData(quoteForm);
 
@@ -973,7 +973,7 @@
                     if (data.errors) {
                         showToast('Submission Issue', data.errors.map(err => err.message).join(', '), true);
                     } else {
-                        showToast('Activation Needed', 'Please check CCBuilds@pm.me to confirm form activation.', true);
+                        showToast('Submission Issue', 'Formspree error. Please check your form endpoint.', true);
                     }
                 }
             } catch (err) {
