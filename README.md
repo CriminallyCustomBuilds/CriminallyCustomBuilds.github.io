@@ -9,7 +9,7 @@
     <!-- SEO & Social Meta Tags -->
     <meta name="description" content="Criminally Custom Builds - Northwest Arkansas garage specializing exclusively in 50cc to 400cc small bike engines, GY6 big bores, Predator swaps, and custom builds. Call/text (479) 397-0534.">
     <meta property="og:title" content="Criminally Custom Builds | Unapologetically Modified">
-    <meta property="og:description" content="50cc–400cc small engine performance and repair shop located at 1610 Madison 6345, Wesley, AR.">
+    <meta property="og:description" content="50cc–400cc small engine performance and repair shop located at 1610 Madison County Rd 6345, Wesley, AR 72773.">
     <meta property="og:image" content="https://i.postimg.cc/SR6BPY2D/1791984296717-1.png">
     <meta property="og:type" content="website">
 
@@ -117,7 +117,7 @@
                             <span class="text-xl font-display font-extrabold tracking-wider text-white leading-none">CRIMINALLY CUSTOM</span>
                             <span class="hidden sm:inline-block px-1.5 py-0.5 text-[10px] font-mono font-bold bg-zinc-800 text-amber-400 rounded border border-zinc-700">&le;400CC</span>
                         </div>
-                        <span class="text-xs font-mono uppercase tracking-widest text-crimson-500 font-semibold block mt-0.5">CC Builds // 1610 Madison 6345, Wesley, AR</span>
+                        <span class="text-xs font-mono uppercase tracking-widest text-crimson-500 font-semibold block mt-0.5">CC Builds // 1610 Madison County Rd 6345, Wesley, AR</span>
                     </div>
                 </a>
 
@@ -155,7 +155,7 @@
             <a href="#rates" class="block px-4 py-2.5 rounded-xl text-sm font-semibold text-zinc-300 hover:bg-obsidian-800 hover:text-white">Shop Labor Rates</a>
             <a href="#services" class="block px-4 py-2.5 rounded-xl text-sm font-semibold text-zinc-300 hover:bg-obsidian-800 hover:text-white">50cc–400cc Services</a>
             <a href="#calculator" class="block px-4 py-2.5 rounded-xl text-sm font-semibold text-zinc-300 hover:bg-obsidian-800 hover:text-white">Labor & Deposit Calculator</a>
-            <a href="#policies" class="block px-4 py-2.5 rounded-xl text-sm font-semibold text-zinc-300 hover:bg-obsidian-800 hover:text-white">Shop Policies & Address</a>
+            <a href="#policies" class="block px-4 py-2.5 rounded-xl text-sm font-semibold text-zinc-300 hover:bg-obsidian-800 hover:text-white">Shop Policies & Map</a>
             <div class="pt-3 space-y-2">
                 <a href="tel:4793970534" class="w-full block text-center px-5 py-3 rounded-xl bg-obsidian-800 text-zinc-200 border border-zinc-700 font-mono text-xs font-bold">
                     Call / Text: (479) 397-0534
@@ -226,7 +226,7 @@
                     </div>
                 </div>
 
-                <!-- Featured Card with Updated Shop Title -->
+                <!-- Featured Card with Updated Shop Title & Map Pin Link -->
                 <div class="lg:col-span-5 relative">
                     <div class="absolute -inset-2 bg-gradient-to-r from-crimson-600 to-amber-500 rounded-3xl blur-2xl opacity-25"></div>
                     <div class="relative bg-obsidian-900 border border-zinc-800 rounded-2xl overflow-hidden shadow-2xl">
@@ -242,7 +242,10 @@
                         <div class="p-8 text-center bg-gradient-to-b from-obsidian-950 to-obsidian-900 flex flex-col items-center">
                             <img src="https://i.postimg.cc/SR6BPY2D/1791984296717-1.png" alt="Criminally Custom Builds" class="w-48 h-48 sm:w-56 sm:h-56 object-contain rounded-2xl shadow-2xl border border-zinc-800/80 p-2 bg-obsidian-950/60 mb-4">
                             <h3 class="text-xl font-display font-bold text-white uppercase">Criminally Custom Builds</h3>
-                            <p class="text-xs font-mono text-zinc-400 mt-1">1610 Madison 6345, Wesley, AR 72773</p>
+                            <a href="https://www.google.com/maps/search/?api=1&query=1610+Madison+County+Rd+6345,+Wesley,+AR+72773" target="_blank" rel="noopener noreferrer" class="text-xs font-mono text-zinc-300 hover:text-amber-400 mt-1 flex items-center space-x-1.5 transition-colors">
+                                <i class="fa-solid fa-location-dot text-crimson-500"></i>
+                                <span>1610 Madison County Rd 6345, Wesley, AR 72773</span>
+                            </a>
                             <a href="tel:4793970534" class="text-sm font-mono text-amber-400 font-bold mt-2 hover:underline flex items-center space-x-1.5">
                                 <i class="fa-solid fa-phone text-xs"></i>
                                 <span>(479) 397-0534</span>
@@ -699,12 +702,12 @@
         </div>
     </section>
 
-    <!-- 5. Shop Policies & Location -->
+    <!-- 5. Shop Policies & Location with Interactive Google Maps Pin -->
     <section id="policies" class="py-20 bg-obsidian-950 border-b border-zinc-800">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
                 <!-- Shop Rules -->
-                <div class="lg:col-span-7 space-y-6">
+                <div class="lg:col-span-6 space-y-6">
                     <div class="inline-flex items-center space-x-2 text-amber-400 font-mono text-xs uppercase tracking-widest">
                         <i class="fa-solid fa-gavel"></i>
                         <span>// 04. SHOP POLICIES & DEPOSIT RULES</span>
@@ -737,61 +740,72 @@
                     </div>
                 </div>
 
-                <!-- Business Address Box -->
-                <div class="lg:col-span-5">
+                <!-- Business Address & Interactive Google Maps Pin Box -->
+                <div class="lg:col-span-6">
                     <div class="p-7 sm:p-8 rounded-2xl bg-obsidian-900 border border-zinc-800 shadow-2xl space-y-6">
                         <div class="flex items-center justify-between border-b border-zinc-800 pb-4">
                             <div>
                                 <span class="text-xs font-mono text-crimson-500 uppercase">OFFICIAL SHOP LOCATION</span>
                                 <h3 class="text-2xl font-display font-extrabold text-white uppercase">Wesley, Arkansas</h3>
                             </div>
-                            <div class="w-12 h-12 rounded-xl bg-crimson-600/15 border border-crimson-500/40 flex items-center justify-center text-crimson-500">
+                            <a href="https://www.google.com/maps/search/?api=1&query=1610+Madison+County+Rd+6345,+Wesley,+AR+72773" target="_blank" rel="noopener noreferrer" aria-label="Open in Google Maps" class="w-12 h-12 rounded-xl bg-crimson-600/15 border border-crimson-500/40 hover:bg-crimson-600 hover:text-white flex items-center justify-center text-crimson-500 transition-colors">
                                 <i class="fa-solid fa-location-dot text-xl"></i>
-                            </div>
+                            </a>
                         </div>
 
-                        <div class="space-y-4 text-sm">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
                             <div class="flex items-start space-x-3.5">
                                 <i class="fa-solid fa-map-location-dot text-crimson-500 mt-1"></i>
                                 <div>
                                     <p class="font-display font-bold text-white uppercase">Shop Address</p>
-                                    <p class="text-sm font-mono text-amber-400 font-bold mt-0.5">1610 Madison 6345<br>Wesley, Arkansas 72773</p>
-                                    <p class="text-xs text-zinc-400 mt-1">Serving Washington & Madison Counties and all of Northwest Arkansas.</p>
+                                    <a href="https://www.google.com/maps/search/?api=1&query=1610+Madison+County+Rd+6345,+Wesley,+AR+72773" target="_blank" rel="noopener noreferrer" class="text-sm font-mono text-amber-400 font-bold mt-0.5 hover:underline block">
+                                        1610 Madison County Rd 6345<br>Wesley, Arkansas 72773
+                                    </a>
+                                    <p class="text-xs text-zinc-400 mt-1">Serving Madison & Washington Counties and all of NWA.</p>
                                 </div>
                             </div>
 
-                            <div class="flex items-start space-x-3.5">
-                                <i class="fa-solid fa-gauge text-amber-500 mt-1"></i>
-                                <div>
-                                    <p class="font-display font-bold text-white uppercase">Engine Limit</p>
-                                    <p class="text-xs text-zinc-400 mt-0.5">Strictly 50cc to 400cc small powersports engines.</p>
-                                    <p class="text-xs font-mono text-zinc-500 mt-1">
-                                        Over 400cc? <a href="mailto:CCBuilds@pm.me?subject=Custom%20Quote%20Over%20400cc" class="text-amber-400 hover:underline">Email CCBuilds@pm.me for a custom quote</a>.
-                                    </p>
+                            <div class="space-y-3">
+                                <div class="flex items-start space-x-3.5">
+                                    <i class="fa-solid fa-phone text-amber-500 mt-1"></i>
+                                    <div>
+                                        <p class="font-display font-bold text-white uppercase">Shop Phone / Text</p>
+                                        <a href="tel:4793970534" class="text-xs font-mono text-amber-400 hover:underline mt-0.5 block font-bold">(479) 397-0534</a>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="flex items-start space-x-3.5">
-                                <i class="fa-solid fa-envelope text-crimson-500 mt-1"></i>
-                                <div>
-                                    <p class="font-display font-bold text-white uppercase">Direct Shop Dispatch</p>
-                                    <a href="mailto:CCBuilds@pm.me" class="text-xs font-mono text-zinc-300 hover:text-white mt-0.5 block transition-colors" id="shop-email">CCBuilds@pm.me</a>
-                                </div>
-                            </div>
-
-                            <div class="flex items-start space-x-3.5">
-                                <i class="fa-solid fa-phone text-amber-500 mt-1"></i>
-                                <div>
-                                    <p class="font-display font-bold text-white uppercase">Shop Phone / Text</p>
-                                    <a href="tel:4793970534" class="text-xs font-mono text-amber-400 hover:underline mt-0.5 block font-bold">(479) 397-0534</a>
+                                <div class="flex items-start space-x-3.5">
+                                    <i class="fa-solid fa-envelope text-crimson-500 mt-1"></i>
+                                    <div>
+                                        <p class="font-display font-bold text-white uppercase">Direct Dispatch</p>
+                                        <a href="mailto:CCBuilds@pm.me" class="text-xs font-mono text-zinc-300 hover:text-white mt-0.5 block transition-colors" id="shop-email">CCBuilds@pm.me</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="pt-4 border-t border-zinc-800">
-                            <a href="#calculator" class="w-full py-3.5 px-6 rounded-xl bg-crimson-600 hover:bg-crimson-500 text-white font-display font-bold text-xs uppercase tracking-wider transition-all flex items-center justify-center space-x-2">
+                        <!-- Embedded Interactive Google Map with Pin -->
+                        <div class="rounded-xl overflow-hidden border border-zinc-800 bg-obsidian-950 h-60 relative">
+                            <iframe
+                                title="Criminally Custom Builds Map Pin - 1610 Madison County Rd 6345, Wesley, AR 72773"
+                                src="https://maps.google.com/maps?q=1610%20Madison%20County%20Rd%206345,%20Wesley,%20AR%2072773&t=&z=14&ie=UTF8&iwloc=&output=embed"
+                                width="100%"
+                                height="100%"
+                                style="border:0; filter: contrast(1.05);"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
+                            <a href="https://www.google.com/maps/dir/?api=1&destination=1610+Madison+County+Rd+6345,+Wesley,+AR+72773" target="_blank" rel="noopener noreferrer" class="w-full py-3.5 px-5 rounded-xl bg-obsidian-800 hover:bg-obsidian-700 text-white border border-zinc-700 font-display font-bold text-xs uppercase tracking-wider transition-all flex items-center justify-center space-x-2">
+                                <i class="fa-solid fa-diamond-turn-right text-amber-400"></i>
+                                <span>Get Directions</span>
+                            </a>
+                            <a href="#calculator" class="w-full py-3.5 px-5 rounded-xl bg-crimson-600 hover:bg-crimson-500 text-white font-display font-bold text-xs uppercase tracking-wider transition-all flex items-center justify-center space-x-2">
                                 <i class="fa-solid fa-calculator"></i>
-                                <span>Calculate Labor & Deposit</span>
+                                <span>Calculate Estimate</span>
                             </a>
                         </div>
                     </div>
@@ -808,7 +822,7 @@
                     <img src="https://i.postimg.cc/SR6BPY2D/1791984296717-1.png" alt="Criminally Custom Builds" class="w-10 h-10 rounded-full border border-amber-500/80 object-cover">
                     <div>
                         <span class="text-base font-display font-extrabold tracking-wider text-white">CRIMINALLY CUSTOM BUILDS (CC BUILDS)</span>
-                        <p class="text-xs text-zinc-500">1610 Madison 6345, Wesley, AR 72773 // Phone: (479) 397-0534</p>
+                        <p class="text-xs text-zinc-500">1610 Madison County Rd 6345, Wesley, AR 72773 // Phone: (479) 397-0534</p>
                     </div>
                 </div>
 
