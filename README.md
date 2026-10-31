@@ -337,7 +337,7 @@
                         <p class="text-4xl font-display font-extrabold text-white">$200<span class="text-lg text-zinc-400 font-mono">/hr</span></p>
                         <h3 class="text-base font-display font-bold text-zinc-100 mt-1 uppercase">Off-Road Custom Builds</h3>
                         <p class="text-xs text-zinc-400 mt-3 leading-relaxed">
-                            Ground-up off-road trail vehicles, go-karts, side-by-sides, and custom chassis fabrication. Requires upfront quote covering labor & all parts.
+                            Ground-up off-road trail vehicles, go-karts, and custom chassis fabrication. Requires upfront quote covering labor & all parts.
                         </p>
                     </div>
                     <div class="mt-5 pt-3 border-t border-zinc-800/80 text-[11px] font-mono text-amber-400 font-bold">
@@ -665,7 +665,7 @@
                                 <i class="fa-solid fa-motorcycle text-amber-400 text-xl"></i>
                             </div>
                             <p class="text-zinc-400 text-sm leading-relaxed mb-6">
-                                Ground-up trail vehicles, go-karts, side-by-sides, and engine swaps up to 400cc.
+                                Ground-up trail vehicles, go-karts, and engine swaps up to 400cc.
                             </p>
                             <ul class="space-y-2.5 text-xs text-zinc-300 border-t border-zinc-800 pt-5">
                                 <li class="flex items-start space-x-2.5">
