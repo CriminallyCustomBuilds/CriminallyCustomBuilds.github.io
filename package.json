@@ -1,0 +1,8 @@
+import { createClient } from '@base44/sdk';
+
+const base44 = createClient({
+  appId: "6ad18dfb32a00f544ef77532",
+  headers: {
+    "Authorization": "Bearer b44u_53169fb15d7d7c34d8b2843e000f12153cd986f418312bdc710e26d16bd5b045"
+  }
+});
