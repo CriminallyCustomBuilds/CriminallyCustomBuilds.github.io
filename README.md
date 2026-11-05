@@ -3,18 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Criminally Custom Builds | 50cc–400cc Garage & Lawnmowers | Wesley, AR</title>
-    <meta name="google-site-verification" content="0wrhAEaLqsKlxr77CC12N0DWpNW15Y8AifQ9fsDt8eU" />
+    <title>Zachery North Repairs | 50cc–400cc Garage & Lawnmowers | Wesley, AR</title>
 
     <!-- SEO & Social Meta Tags -->
-    <meta name="description" content="Criminally Custom Builds - Northwest Arkansas garage specializing in 50cc to 400cc small bike engines, GY6 big bores, Predator swaps, off-road custom builds, and lawnmower repair. Call/text (479) 397-0534.">
-    <meta property="og:title" content="Criminally Custom Builds | Unapologetically Modified">
-    <meta property="og:description" content="Small engine performance, off-road custom fabrication, and lawnmower repair shop located at 1610 Madison County Rd 6345, Wesley, AR 72773.">
-    <meta property="og:image" content="https://i.postimg.cc/SR6BPY2D/1791984296717-1.png">
+    <meta name="description" content="Zachery North Repairs - Northwest Arkansas garage specializing in 50cc to 400cc small bike engines, GY6 big bores, Predator swaps, off-road custom builds, and lawnmower repair. Call/text (479) 397-0534.">
+    <meta property="og:title" content="Zachery North Repairs | Unapologetic Performance">
+    <meta property="og:description" content="Small engine performance, off-road custom fabrication, and lawnmower repair shop located at 1610 Madison 6345, Wesley, AR 72773.">
+    <meta property="og:image" content="https://drive.google.com/uc?export=view&id=1CBUu47txot5i-u2SmQpbFA8U_EF2mEeP">
     <meta property="og:type" content="website">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="https://i.postimg.cc/SR6BPY2D/1791984296717-1.png">
+    <link rel="icon" type="image/jpeg" href="https://drive.google.com/uc?export=view&id=1CBUu47txot5i-u2SmQpbFA8U_EF2mEeP">
 
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -84,9 +83,6 @@
                 linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
                 linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
         }
-        .red-glow:hover {
-            box-shadow: 0 0 28px -5px rgba(220, 38, 38, 0.45);
-        }
     </style>
 </head>
 <body class="bg-obsidian-950 text-zinc-100 antialiased selection:bg-crimson-600 selection:text-white overflow-x-hidden">
@@ -111,13 +107,12 @@
             <div class="flex items-center justify-between h-20">
                 <!-- Brand Logo -->
                 <a href="#home" class="flex items-center space-x-3.5 group">
-                    <img src="https://i.postimg.cc/SR6BPY2D/1791984296717-1.png" alt="Criminally Custom Builds Logo" class="w-12 h-12 rounded-full border-2 border-amber-500/80 object-cover shadow-lg group-hover:scale-105 transition-transform">
+                    <img src="https://drive.google.com/uc?export=view&id=1CBUu47txot5i-u2SmQpbFA8U_EF2mEeP" alt="Zachery North Repairs Logo" class="w-12 h-12 rounded-full border-2 border-amber-500/80 object-cover shadow-lg group-hover:scale-105 transition-transform">
                     <div>
                         <div class="flex items-center space-x-2">
-                            <span class="text-xl font-display font-extrabold tracking-wider text-white leading-none">CRIMINALLY CUSTOM</span>
-                            <span class="hidden sm:inline-block px-1.5 py-0.5 text-[10px] font-mono font-bold bg-zinc-800 text-amber-400 rounded border border-zinc-700">&le;400CC + MOWERS</span>
+                            <span class="text-xl font-display font-extrabold tracking-wider text-white leading-none uppercase">Zachery North Repairs</span>
                         </div>
-                        <span class="text-xs font-mono uppercase tracking-widest text-crimson-500 font-semibold block mt-0.5">CC Builds // 1610 Madison County Rd 6345, Wesley, AR</span>
+                        <span class="text-xs font-mono uppercase tracking-widest text-crimson-500 font-semibold block mt-0.5">1610 Madison 6345, Wesley, AR</span>
                     </div>
                 </a>
 
@@ -125,8 +120,8 @@
                 <div class="hidden md:flex items-center space-x-7">
                     <a href="#rates" class="text-sm font-medium text-zinc-400 hover:text-white transition-colors">Labor Rates</a>
                     <a href="#services" class="text-sm font-medium text-zinc-400 hover:text-white transition-colors">Services</a>
-                    <a href="#calculator" class="text-sm font-medium text-zinc-400 hover:text-white transition-colors">Deposit Estimator</a>
-                    <a href="#policies" class="text-sm font-medium text-zinc-400 hover:text-white transition-colors">Shop Location</a>
+                    <a href="#calculator" class="text-sm font-medium text-zinc-400 hover:text-white transition-colors">Estimator</a>
+                    <a href="#policies" class="text-sm font-medium text-zinc-400 hover:text-white transition-colors">Location</a>
                 </div>
 
                 <!-- Call to Action -->
@@ -154,20 +149,20 @@
         <div id="mobile-menu" class="hidden md:hidden bg-obsidian-900 border-b border-zinc-800 px-4 pt-3 pb-6 space-y-2">
             <a href="#rates" class="block px-4 py-2.5 rounded-xl text-sm font-semibold text-zinc-300 hover:bg-obsidian-800 hover:text-white">Shop Labor Rates</a>
             <a href="#services" class="block px-4 py-2.5 rounded-xl text-sm font-semibold text-zinc-300 hover:bg-obsidian-800 hover:text-white">Services & Lawnmowers</a>
-            <a href="#calculator" class="block px-4 py-2.5 rounded-xl text-sm font-semibold text-zinc-300 hover:bg-obsidian-800 hover:text-white">Labor & Deposit Calculator</a>
+            <a href="#calculator" class="block px-4 py-2.5 rounded-xl text-sm font-semibold text-zinc-300 hover:bg-obsidian-800 hover:text-white">Labor Calculator</a>
             <a href="#policies" class="block px-4 py-2.5 rounded-xl text-sm font-semibold text-zinc-300 hover:bg-obsidian-800 hover:text-white">Shop Policies & Map</a>
             <div class="pt-3 space-y-2">
                 <a href="tel:4793970534" class="w-full block text-center px-5 py-3 rounded-xl bg-obsidian-800 text-zinc-200 border border-zinc-700 font-mono text-xs font-bold">
                     Call / Text: (479) 397-0534
                 </a>
                 <a href="#calculator" class="w-full block text-center px-5 py-3.5 rounded-xl bg-crimson-600 text-white font-display text-xs font-bold uppercase tracking-wider">
-                    Estimate Labor & Deposit
+                    Estimate Work Order
                 </a>
             </div>
         </div>
     </header>
 
-    <!-- 1. Hero Section -->
+    <!-- Hero Section -->
     <section id="home" class="relative pt-14 pb-20 md:pt-24 md:pb-32 hero-mesh grid-bg overflow-hidden border-b border-zinc-900">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
@@ -180,23 +175,19 @@
 
                     <div>
                         <p class="text-xs sm:text-sm font-mono uppercase tracking-[0.25em] text-amber-500 font-bold mb-2">
-                            CRIMINALLY CUSTOM BUILDS (CC BUILDS)
+                            ZACHERY NORTH REPAIRS
                         </p>
                         <h1 class="text-4xl sm:text-6xl lg:text-7xl font-display font-extrabold text-white tracking-tight leading-[1.03] uppercase">
-                            Unapologetically <span class="text-transparent bg-clip-text bg-gradient-to-r from-crimson-500 via-rose-500 to-amber-500">Modified.</span>
+                            Unapologetic <span class="text-transparent bg-clip-text bg-gradient-to-r from-crimson-500 via-rose-500 to-amber-500">Performance.</span>
                         </h1>
+                        <p class="text-lg sm:text-2xl font-display font-bold text-zinc-300 uppercase mt-4 tracking-wide">
+                            Small Engines & Fabrication
+                        </p>
                     </div>
 
-                    <p class="text-base sm:text-xl text-zinc-300 max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
-                        Exclusively built for <strong class="text-white">small bike engines up to 400cc, off-road custom builds, and lawnmowers</strong> in Northwest Arkansas. GY6 big bores, Predator swaps, trail vehicles, and lawnmower engine repair.
+                    <p class="text-base sm:text-lg text-zinc-400 max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
+                        Built for <strong class="text-white">small bike engines up to 400cc, off-road custom builds, and lawnmowers</strong> in Northwest Arkansas. GY6 big bores, Predator swaps, trail vehicles, and mower repair.
                     </p>
-
-                    <div class="flex flex-wrap items-center justify-center lg:justify-start gap-2 pt-1">
-                        <span class="px-3 py-1 rounded-lg bg-obsidian-800 border border-zinc-700 text-xs font-mono text-zinc-300">50cc–150cc GY6 Scooters</span>
-                        <span class="px-3 py-1 rounded-lg bg-obsidian-800 border border-zinc-700 text-xs font-mono text-zinc-300">Off-Road Custom Builds</span>
-                        <span class="px-3 py-1 rounded-lg bg-obsidian-800 border border-zinc-700 text-xs font-mono text-zinc-300">Predator & Small Engines</span>
-                        <span class="px-3 py-1 rounded-lg bg-obsidian-800 border border-zinc-700 text-xs font-mono text-zinc-300">Lawnmowers</span>
-                    </div>
 
                     <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4 pt-3">
                         <a href="#calculator" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-crimson-600 hover:bg-crimson-500 text-white font-display font-bold text-sm uppercase tracking-wider shadow-xl shadow-crimson-600/30 transition-all transform hover:-translate-y-0.5 flex items-center justify-center space-x-3">
@@ -207,22 +198,6 @@
                             <i class="fa-solid fa-wrench text-amber-500"></i>
                             <span>Explore Services</span>
                         </a>
-                    </div>
-
-                    <!-- Clear Labor Rates Snapshot -->
-                    <div class="pt-8 grid grid-cols-3 gap-4 border-t border-zinc-800/80 text-center lg:text-left">
-                        <div>
-                            <p class="text-2xl sm:text-3xl font-display font-extrabold text-white">$85<span class="text-amber-500">/hr</span></p>
-                            <p class="text-xs font-mono uppercase tracking-wider text-zinc-500 mt-1">General Repair / Mowers</p>
-                        </div>
-                        <div>
-                            <p class="text-2xl sm:text-3xl font-display font-extrabold text-white">$100<span class="text-crimson-500">/hr</span></p>
-                            <p class="text-xs font-mono uppercase tracking-wider text-zinc-500 mt-1">Performance / Big Bore</p>
-                        </div>
-                        <div>
-                            <p class="text-2xl sm:text-3xl font-display font-extrabold text-white">$200<span class="text-amber-400">/hr</span></p>
-                            <p class="text-xs font-mono uppercase tracking-wider text-amber-400 mt-1">Off-Road Custom Builds</p>
-                        </div>
                     </div>
                 </div>
 
@@ -236,18 +211,19 @@
                                 <span class="w-3 h-3 rounded-full bg-amber-500"></span>
                                 <span class="w-3 h-3 rounded-full bg-emerald-500"></span>
                             </div>
-                            <span class="text-xs font-mono text-zinc-400">CRIMINALLY CUSTOM // WESLEY AR</span>
+                            <span class="text-xs font-mono text-zinc-400">ZACHERY NORTH REPAIRS</span>
                         </div>
                         
                         <div class="p-8 text-center bg-gradient-to-b from-obsidian-950 to-obsidian-900 flex flex-col items-center">
-                            <img src="https://i.postimg.cc/SR6BPY2D/1791984296717-1.png" alt="Criminally Custom Builds" class="w-48 h-48 sm:w-56 sm:h-56 object-contain rounded-2xl shadow-2xl border border-zinc-800/80 p-2 bg-obsidian-950/60 mb-4">
-                            <h3 class="text-xl font-display font-bold text-white uppercase">Criminally Custom Builds</h3>
-                            <a href="https://www.google.com/maps/search/?api=1&query=1610+Madison+County+Rd+6345,+Wesley,+AR+72773" target="_blank" rel="noopener noreferrer" class="text-xs font-mono text-zinc-300 hover:text-amber-400 mt-1 flex items-center space-x-1.5 transition-colors">
+                            <img src="https://drive.google.com/uc?export=view&id=1CBUu47txot5i-u2SmQpbFA8U_EF2mEeP" alt="Zachery North Repairs" class="w-48 h-48 sm:w-56 sm:h-56 object-contain rounded-2xl shadow-2xl border border-zinc-800/80 p-2 bg-obsidian-950/60 mb-4">
+                            <h3 class="text-xl font-display font-bold text-white uppercase">Zachery North Repairs</h3>
+                            <p class="text-xs text-amber-500 font-mono uppercase tracking-wider mt-1">Unapologetic Performance</p>
+                            <a href="https://www.google.com/maps/search/?api=1&query=1610+Madison+6345,+Wesley,+AR+72773" target="_blank" rel="noopener noreferrer" class="text-xs font-mono text-zinc-300 hover:text-amber-400 mt-2 flex items-center space-x-1.5 transition-colors">
                                 <i class="fa-solid fa-location-dot text-crimson-500"></i>
-                                <span>1610 Madison County Rd 6345, Wesley, AR 72773</span>
+                                <span>1610 Madison 6345, Wesley, AR 72773</span>
                             </a>
-                            <a href="tel:4793970534" class="text-sm font-mono text-amber-400 font-bold mt-2 hover:underline flex items-center space-x-1.5">
-                                <i class="fa-solid fa-phone text-xs"></i>
+                            <a href="tel:4793970534" class="text-sm font-mono text-white font-bold mt-2 hover:underline flex items-center space-x-1.5">
+                                <i class="fa-solid fa-phone text-xs text-amber-500"></i>
                                 <span>(479) 397-0534</span>
                             </a>
                         </div>
@@ -272,7 +248,7 @@
         </div>
     </section>
 
-    <!-- 2. Labor Rates & Deposit Structure -->
+    <!-- Labor Rates & Deposit Structure -->
     <section id="rates" class="py-16 bg-obsidian-900 border-b border-zinc-800 relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col md:flex-row md:items-end justify-between mb-10">
@@ -288,7 +264,7 @@
             </div>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                <!-- Tier 1: General Repair & Lawnmowers -->
+                <!-- Tier 1 -->
                 <div class="p-6 rounded-2xl bg-obsidian-950 border border-zinc-800 hover:border-amber-500/60 transition-all flex flex-col justify-between">
                     <div>
                         <div class="flex items-center justify-between mb-4">
@@ -296,492 +272,336 @@
                             <i class="fa-solid fa-seedling text-amber-500 text-lg"></i>
                         </div>
                         <p class="text-4xl font-display font-extrabold text-white">$85<span class="text-lg text-zinc-400 font-mono">/hr</span></p>
-                        <h3 class="text-base font-display font-bold text-zinc-100 mt-1 uppercase">General Repair & Mowers</h3>
-                        <p class="text-xs text-zinc-400 mt-3 leading-relaxed">
-                            OEM carb rebuilds, valve lash adjustments, drive belt replacements, brake/tire service, stock engine refreshes, and complete lawnmower engine repair & deck maintenance.
-                        </p>
-                    </div>
-                    <div class="mt-5 pt-3 border-t border-zinc-800/80 text-[11px] font-mono text-amber-400">
-                        MAINTENANCE, REPAIR & LAWNMOWERS
+                        <p class="text-sm font-bold text-white uppercase mt-2">General Repair & Mowers</p>
+                        <ul class="mt-4 space-y-2 text-sm text-zinc-400">
+                            <li class="flex items-start space-x-2">
+                                <i class="fa-solid fa-check text-amber-500 mt-0.5 text-xs"></i>
+                                <span>Lawnmower diagnostics & repair</span>
+                            </li>
+                            <li class="flex items-start space-x-2">
+                                <i class="fa-solid fa-check text-amber-500 mt-0.5 text-xs"></i>
+                                <span>Basic scooter maintenance</span>
+                            </li>
+                            <li class="flex items-start space-x-2">
+                                <i class="fa-solid fa-check text-amber-500 mt-0.5 text-xs"></i>
+                                <span>Small engine tune-ups</span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
-                <!-- Tier 2: Performance & Big Bore -->
-                <div class="p-6 rounded-2xl bg-obsidian-950 border border-crimson-600/60 hover:border-crimson-500 transition-all flex flex-col justify-between shadow-lg shadow-crimson-600/10">
-                    <div>
+                <!-- Tier 2 -->
+                <div class="p-6 rounded-2xl bg-obsidian-950 border border-crimson-500/30 relative overflow-hidden flex flex-col justify-between group">
+                    <div class="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
+                        <i class="fa-solid fa-fire text-6xl text-crimson-500"></i>
+                    </div>
+                    <div class="relative z-10">
                         <div class="flex items-center justify-between mb-4">
-                            <span class="px-2.5 py-1 rounded bg-crimson-600/20 border border-crimson-500/40 text-crimson-400 font-mono text-xs font-bold">MODIFIED ENGINES</span>
-                            <i class="fa-solid fa-fire-flame-curved text-crimson-500 text-lg"></i>
+                            <span class="px-2.5 py-1 rounded bg-crimson-600/20 border border-crimson-500 text-crimson-400 font-mono text-xs font-bold shadow-[0_0_10px_rgba(220,38,38,0.2)]">UPGRADES</span>
+                            <i class="fa-solid fa-gauge-high text-crimson-500 text-lg"></i>
                         </div>
-                        <p class="text-4xl font-display font-extrabold text-white">$100<span class="text-lg text-crimson-400 font-mono">/hr</span></p>
-                        <h3 class="text-base font-display font-bold text-zinc-100 mt-1 uppercase">Performance / Big Bore</h3>
-                        <p class="text-xs text-zinc-400 mt-3 leading-relaxed">
-                            50cc-to-100cc+ GY6 conversions, high-lift cams, performance CVT clutch tuning, flat-slide carb swaps, Predator governor deletes, and small engine swaps.
-                        </p>
-                    </div>
-                    <div class="mt-5 pt-3 border-t border-zinc-800/80 text-[11px] font-mono text-crimson-400">
-                        PERFORMANCE TUNING & BIG BORES
+                        <p class="text-4xl font-display font-extrabold text-white">$100<span class="text-lg text-zinc-400 font-mono">/hr</span></p>
+                        <p class="text-sm font-bold text-white uppercase mt-2">Performance & Big Bore</p>
+                        <ul class="mt-4 space-y-2 text-sm text-zinc-400">
+                            <li class="flex items-start space-x-2">
+                                <i class="fa-solid fa-bolt text-crimson-500 mt-0.5 text-xs"></i>
+                                <span>GY6 80cc–150cc big bore kits</span>
+                            </li>
+                            <li class="flex items-start space-x-2">
+                                <i class="fa-solid fa-bolt text-crimson-500 mt-0.5 text-xs"></i>
+                                <span>Performance CVT tuning</span>
+                            </li>
+                            <li class="flex items-start space-x-2">
+                                <i class="fa-solid fa-bolt text-crimson-500 mt-0.5 text-xs"></i>
+                                <span>Carburetor jets & air/fuel mods</span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
-                <!-- Tier 3: Fully Custom Builds (Available Off-Road Only) -->
-                <div class="p-6 rounded-2xl bg-obsidian-950 border border-amber-500/60 hover:border-amber-400 transition-all flex flex-col justify-between relative overflow-hidden">
-                    <div class="absolute -right-12 top-6 bg-amber-500 text-obsidian-950 font-mono text-[10px] font-bold py-1 px-12 rotate-45 uppercase">
-                        Off-Road Only
-                    </div>
+                <!-- Tier 3 -->
+                <div class="p-6 rounded-2xl bg-obsidian-950 border border-amber-500/30 flex flex-col justify-between">
                     <div>
                         <div class="flex items-center justify-between mb-4">
-                            <span class="px-2.5 py-1 rounded bg-amber-500/10 border border-amber-500/30 text-amber-400 font-mono text-xs font-bold">CUSTOM FAB</span>
-                            <i class="fa-solid fa-motorcycle text-amber-400 text-lg"></i>
+                            <span class="px-2.5 py-1 rounded bg-amber-500/20 border border-amber-500/50 text-amber-400 font-mono text-xs font-bold">CUSTOM</span>
+                            <i class="fa-solid fa-hammer text-amber-500 text-lg"></i>
                         </div>
                         <p class="text-4xl font-display font-extrabold text-white">$200<span class="text-lg text-zinc-400 font-mono">/hr</span></p>
-                        <h3 class="text-base font-display font-bold text-zinc-100 mt-1 uppercase">Off-Road Custom Builds</h3>
-                        <p class="text-xs text-zinc-400 mt-3 leading-relaxed">
-                            Ground-up off-road trail vehicles, go-karts, and custom chassis fabrication. Requires upfront quote covering labor & all parts.
-                        </p>
-                    </div>
-                    <div class="mt-5 pt-3 border-t border-zinc-800/80 text-[11px] font-mono text-amber-400 font-bold">
-                        AVAILABLE OFF-ROAD ONLY
+                        <p class="text-sm font-bold text-white uppercase mt-2">Off-Road Builds</p>
+                        <ul class="mt-4 space-y-2 text-sm text-zinc-400">
+                            <li class="flex items-start space-x-2">
+                                <i class="fa-solid fa-plus text-amber-500 mt-0.5 text-xs"></i>
+                                <span>Predator engine swaps</span>
+                            </li>
+                            <li class="flex items-start space-x-2">
+                                <i class="fa-solid fa-plus text-amber-500 mt-0.5 text-xs"></i>
+                                <span>Custom framing & brackets</span>
+                            </li>
+                            <li class="flex items-start space-x-2">
+                                <i class="fa-solid fa-plus text-amber-500 mt-0.5 text-xs"></i>
+                                <span>Full chassis modifications</span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
-                <!-- Tier 4: Deposit Rate Rule -->
-                <div class="p-6 rounded-2xl bg-gradient-to-b from-obsidian-950 to-crimson-950/25 border-2 border-crimson-600/70 flex flex-col justify-between relative">
+                <!-- Deposit Box -->
+                <div class="p-6 rounded-2xl bg-zinc-900 border border-zinc-700 flex flex-col justify-between">
                     <div>
                         <div class="flex items-center justify-between mb-4">
-                            <span class="px-2.5 py-1 rounded bg-crimson-600 text-white font-mono text-xs font-bold uppercase">DEPOSIT RULE</span>
-                            <i class="fa-solid fa-piggy-bank text-amber-400 text-lg"></i>
+                            <span class="px-2.5 py-1 rounded bg-zinc-800 border border-zinc-600 text-white font-mono text-xs font-bold">REQUIRED</span>
+                            <i class="fa-solid fa-file-invoice-dollar text-emerald-400 text-lg"></i>
                         </div>
-                        <p class="text-3xl font-display font-extrabold text-amber-400">$50 + $0.50/cc</p>
-                        <h3 class="text-base font-display font-bold text-white mt-1 uppercase">Parts Deposit Policy</h3>
-                        <p class="text-xs text-zinc-300 mt-3 leading-relaxed">
-                            Standard drop-offs require a deposit of <strong class="text-white">$50 plus $0.50 per engine cc</strong> for parts. Off-road custom builds require an upfront quote covering all parts and labor.
+                        <p class="text-4xl font-display font-extrabold text-emerald-400">$75<span class="text-lg text-zinc-400 font-mono">+</span></p>
+                        <p class="text-sm font-bold text-white uppercase mt-2">Upfront Parts Deposit</p>
+                        <p class="mt-4 text-xs text-zinc-400 leading-relaxed font-mono">
+                            A deposit covering estimated parts cost is required before work begins. Minimum $75. <strong class="text-emerald-400">Deposits are strictly non-refundable and are applied directly to your final parts total.</strong>
                         </p>
-                    </div>
-                    <div class="mt-5 pt-3 border-t border-crimson-800/50 text-[11px] font-mono text-amber-300">
-                        DEPOSIT COVERS PARTS // PAY REMAINDER
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 3. Interactive Labor & Deposit Estimator -->
-    <section id="calculator" class="py-24 bg-obsidian-950 border-b border-zinc-900 relative">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="text-center max-w-3xl mx-auto mb-14">
-                <span class="text-crimson-500 font-mono text-xs uppercase tracking-widest block mb-2">// 02. QUOTE & WORK ORDER ESTIMATOR</span>
-                <h2 class="text-3xl sm:text-5xl font-display font-extrabold text-white uppercase tracking-tight">
-                    Labor & Deposit <span class="text-crimson-500">Estimator.</span>
-                </h2>
-                <p class="text-zinc-400 text-sm sm:text-base mt-3">
-                    Select your service tier, displacement, provide your project description and budget, and submit your work order specs.
-                </p>
-            </div>
-
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-                <!-- Form Inputs -->
-                <form id="quote-form" class="lg:col-span-7 p-6 sm:p-9 rounded-2xl bg-obsidian-900 border border-zinc-800 shadow-2xl space-y-6">
-                    <div class="flex items-center justify-between border-b border-zinc-800 pb-4">
-                        <span class="font-mono text-xs uppercase tracking-widest text-zinc-400">CC BUILDS // WORK ORDER</span>
-                        <span class="px-2.5 py-1 rounded bg-crimson-600/20 text-crimson-400 border border-crimson-500/30 font-mono text-[11px]">MAX 400CC + MOWERS</span>
-                    </div>
-
-                    <!-- Service Tier -->
-                    <div>
-                        <label class="block text-xs font-mono uppercase tracking-wider text-zinc-300 mb-3">1. Select Service / Labor Rate Tier *</label>
-                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
-                            <label class="cursor-pointer">
-                                <input type="radio" name="service_rate" value="85" class="peer sr-only" id="rate-repair">
-                                <div class="p-3.5 rounded-xl bg-obsidian-950 border-2 border-zinc-800 peer-checked:border-amber-500 peer-checked:bg-amber-500/10 transition-all h-full flex flex-col justify-between">
-                                    <span class="font-display font-bold text-white text-xs uppercase block">Repair / Mower</span>
-                                    <span class="font-mono font-bold text-amber-400 text-sm mt-1">$85/hr</span>
-                                </div>
-                            </label>
-
-                            <label class="cursor-pointer">
-                                <input type="radio" name="service_rate" value="100" class="peer sr-only" id="rate-performance" checked>
-                                <div class="p-3.5 rounded-xl bg-obsidian-950 border-2 border-zinc-800 peer-checked:border-crimson-500 peer-checked:bg-crimson-600/10 transition-all h-full flex flex-col justify-between">
-                                    <span class="font-display font-bold text-white text-xs uppercase block">Performance</span>
-                                    <span class="font-mono font-bold text-crimson-400 text-sm mt-1">$100/hr</span>
-                                </div>
-                            </label>
-
-                            <label class="cursor-pointer">
-                                <input type="radio" name="service_rate" value="200" class="peer sr-only" id="rate-custom">
-                                <div class="p-3.5 rounded-xl bg-obsidian-950 border-2 border-zinc-800 peer-checked:border-amber-400 peer-checked:bg-amber-400/10 transition-all h-full flex flex-col justify-between">
-                                    <div class="flex items-center justify-between">
-                                        <span class="font-display font-bold text-white text-xs uppercase">Off-Road Custom</span>
-                                        <span class="text-[9px] font-mono text-amber-400 uppercase font-bold">Quote</span>
-                                    </div>
-                                    <span class="font-mono font-bold text-amber-400 text-sm mt-1">$200/hr</span>
-                                </div>
-                            </label>
-                        </div>
-                    </div>
-
-                    <!-- Engine CC (For Deposit Calculation) -->
-                    <div class="p-4 rounded-xl bg-obsidian-950 border border-zinc-800">
-                        <div class="flex justify-between items-center mb-2">
-                            <label for="cc-slider" class="text-xs font-mono uppercase tracking-wider text-zinc-300">2. Engine Displacement (Cubic Centimeters)</label>
-                            <span class="px-3 py-1 rounded-lg bg-obsidian-900 border border-zinc-700 font-mono font-bold text-sm text-amber-400">
-                                <span id="cc-display">100</span> cc
-                            </span>
-                        </div>
-                        <input type="range" id="cc-slider" min="50" max="400" step="5" value="100" class="w-full accent-amber-500 cursor-pointer">
-                        <div class="flex justify-between text-[10px] font-mono text-zinc-500 mt-1.5">
-                            <span>50cc ($75 dep)</span>
-                            <span>150cc ($125)</span>
-                            <span>250cc ($175)</span>
-                            <span>400cc ($250 dep)</span>
-                        </div>
-                        <p class="text-[11px] font-mono text-zinc-400 mt-2">
-                            Formula: $50 base + ($0.50 × <span id="formula-cc">100</span>cc) = <strong id="formula-deposit" class="text-amber-400 font-bold">$100.00</strong> parts deposit (Standard builds).
-                        </p>
-                    </div>
-
-                    <!-- Estimated Labor Hours -->
-                    <div class="p-4 rounded-xl bg-obsidian-950 border border-zinc-800">
-                        <div class="flex justify-between items-center mb-2">
-                            <label for="hours-slider" class="text-xs font-mono uppercase tracking-wider text-zinc-300">3. Estimated Labor Hours</label>
-                            <span class="px-3 py-1 rounded-lg bg-obsidian-900 border border-zinc-700 font-mono font-bold text-sm text-white">
-                                <span id="hours-display">4</span> hrs
-                            </span>
-                        </div>
-                        <input type="range" id="hours-slider" min="1" max="40" step="0.5" value="4" class="w-full accent-crimson-600 cursor-pointer">
-                        <div class="flex justify-between text-[10px] font-mono text-zinc-500 mt-1.5">
-                            <span>1 hr</span>
-                            <span>10 hrs</span>
-                            <span>25 hrs</span>
-                            <span>40 hrs (Custom Off-Road)</span>
-                        </div>
-                    </div>
-
-                    <!-- Project Description & Budget -->
-                    <div class="pt-2 border-t border-zinc-800 space-y-4">
-                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                            <div>
-                                <label for="rider-name" class="block text-xs font-mono uppercase tracking-wider text-zinc-300 mb-1.5">Your Name *</label>
-                                <input type="text" id="rider-name" required placeholder="Colton Vance" class="w-full px-4 py-3 rounded-xl bg-obsidian-950 border border-zinc-700 text-white text-sm focus:outline-none focus:border-crimson-500">
-                            </div>
-                            <div>
-                                <label for="rider-phone" class="block text-xs font-mono uppercase tracking-wider text-zinc-300 mb-1.5">Phone / Text *</label>
-                                <input type="tel" id="rider-phone" required placeholder="(479) 397-0534" class="w-full px-4 py-3 rounded-xl bg-obsidian-950 border border-zinc-700 text-white text-sm focus:outline-none focus:border-crimson-500">
-                            </div>
-                        </div>
-
-                        <div>
-                            <label for="build-description" class="block text-xs font-mono uppercase tracking-wider text-zinc-300 mb-1.5">Detailed Description of What You Want Built / Repaired *</label>
-                            <textarea id="build-description" required rows="3" placeholder="Describe your machine, engine type (scooter, pit bike, lawnmower, off-road custom), and exact work needed..." class="w-full px-4 py-3 rounded-xl bg-obsidian-950 border border-zinc-700 text-white text-sm focus:outline-none focus:border-crimson-500"></textarea>
-                        </div>
-
-                        <div>
-                            <label for="project-budget" class="block text-xs font-mono uppercase tracking-wider text-amber-400 mb-1.5">Target Budget ($) *</label>
-                            <input type="text" id="project-budget" required placeholder="$500 - $1,500" class="w-full px-4 py-3 rounded-xl bg-obsidian-950 border border-amber-500/50 text-white text-sm focus:outline-none focus:border-amber-400">
-                        </div>
-                    </div>
-
-                    <button type="submit" class="w-full py-4 px-8 rounded-xl bg-crimson-600 hover:bg-crimson-500 text-white font-display font-bold text-sm uppercase tracking-wider shadow-xl shadow-crimson-600/25 transition-all transform hover:-translate-y-0.5 flex items-center justify-center space-x-3">
-                        <i class="fa-solid fa-paper-plane"></i>
-                        <span>Submit Quote & Work Order</span>
-                    </button>
-                </form>
-
-                <!-- Receipt Breakdown -->
-                <div class="lg:col-span-5 lg:sticky lg:top-28 space-y-6">
-                    <div class="rounded-2xl bg-obsidian-900 border-2 border-zinc-800 overflow-hidden shadow-2xl">
-                        <div class="p-5 bg-obsidian-950 border-b border-zinc-800 flex items-center justify-between">
-                            <div>
-                                <span class="text-[11px] font-mono text-crimson-500 uppercase tracking-widest block">WORK ORDER SUMMARY</span>
-                                <h3 class="text-xl font-display font-extrabold text-white uppercase">Estimate & Quote</h3>
-                            </div>
-                            <i class="fa-solid fa-receipt text-2xl text-zinc-600"></i>
-                        </div>
-
-                        <div class="p-6 space-y-5">
-                            <!-- Deposit / Quote Breakdown -->
-                            <div class="p-4 rounded-xl bg-amber-500/10 border border-amber-500/40 space-y-2">
-                                <div class="flex items-center justify-between">
-                                    <span class="text-xs font-mono font-bold uppercase text-amber-400">PARTS DEPOSIT / UPFRONT QUOTE</span>
-                                    <span class="px-2 py-0.5 rounded bg-amber-500 text-obsidian-950 font-mono text-[10px] font-bold">REQUIRED</span>
-                                </div>
-                                <div class="flex justify-between text-xs text-zinc-300 pt-1">
-                                    <span>Base Drop-Off Fee:</span>
-                                    <span class="font-mono text-zinc-200">$50.00</span>
-                                </div>
-                                <div class="flex justify-between text-xs text-zinc-300">
-                                    <span>Displacement Rate (<span id="calc-cc-label">100</span>cc × $0.50):</span>
-                                    <span id="calc-cc-charge" class="font-mono text-amber-400">+$50.00</span>
-                                </div>
-                                <div class="pt-2 border-t border-amber-500/30 flex justify-between items-baseline">
-                                    <span class="text-xs font-display font-bold uppercase text-white">Parts Deposit Total:</span>
-                                    <span id="summary-deposit-total" class="text-2xl font-mono font-bold text-amber-400">$100.00</span>
-                                </div>
-                                <p class="text-[10px] text-zinc-400 italic pt-1 leading-relaxed">
-                                    * Off-road custom builds require an upfront quote covering all labor and parts.
-                                </p>
-                            </div>
-
-                            <!-- Labor Estimate -->
-                            <div class="space-y-2.5 text-sm border-b border-zinc-800 pb-5">
-                                <div class="flex justify-between text-xs text-zinc-400">
-                                    <span>Selected Service Tier:</span>
-                                    <span id="summary-rate-label" class="font-mono text-zinc-200">$100/hr (Performance)</span>
-                                </div>
-                                <div class="flex justify-between text-xs text-zinc-400">
-                                    <span>Estimated Labor Hours:</span>
-                                    <span id="summary-hours-label" class="font-mono text-zinc-200">4.0 hrs</span>
-                                </div>
-                                <div class="flex justify-between items-baseline pt-1">
-                                    <span class="text-xs font-display font-bold uppercase text-zinc-300">Estimated Labor Total:</span>
-                                    <span id="summary-labor-total" class="text-xl font-mono font-bold text-white">$400.00</span>
-                                </div>
-                            </div>
-
-                            <!-- Estimated Total Commitment -->
-                            <div class="flex justify-between items-center pt-1">
-                                <div>
-                                    <span class="text-xs font-mono font-bold uppercase text-zinc-300 block">ESTIMATED TOTAL</span>
-                                    <span class="text-[11px] text-zinc-500">Deposit (Parts) + Estimated Labor</span>
-                                </div>
-                                <span id="summary-grand-total" class="text-3xl font-display font-extrabold text-crimson-500">$500.00</span>
-                            </div>
-                        </div>
-
-                        <div class="px-6 py-4 bg-obsidian-950 border-t border-zinc-800 text-[11px] text-zinc-400 leading-relaxed">
-                            <i class="fa-solid fa-triangle-exclamation text-amber-500 mr-1"></i>
-                            <strong>Note:</strong> All custom off-road builds require a comprehensive upfront quote detailing parts and labor before wrenching begins.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 4. Specialized Services & Lawnmowers -->
-    <section id="services" class="py-24 bg-obsidian-900 border-b border-zinc-800">
+    <!-- Specialized Services Grid -->
+    <section id="services" class="py-16 bg-obsidian-950 border-b border-zinc-900 relative">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-col md:flex-row md:items-end justify-between mb-16">
-                <div>
-                    <span class="text-crimson-500 font-mono text-xs uppercase tracking-widest block mb-2">// 03. SPECIALIZED SMALL ENGINES & MOWERS</span>
-                    <h2 class="text-3xl sm:text-5xl font-display font-extrabold text-white uppercase tracking-tight">
-                        Built For <span class="text-crimson-500">50cc To 400cc & Mowers.</span>
-                    </h2>
-                </div>
-                <p class="text-zinc-400 text-sm sm:text-base max-w-md mt-4 md:mt-0">
-                    From performance GY6 scooters and off-road custom builds to lawnmower engine repair and blade sharpening.
+            <div class="mb-10 text-center md:text-left">
+                <span class="text-amber-500 font-mono text-xs uppercase tracking-widest block mb-2">// 02. CORE CAPABILITIES</span>
+                <h2 class="text-3xl sm:text-4xl font-display font-extrabold text-white uppercase tracking-tight">
+                    Small Engines & <span class="text-amber-500">Fabrication.</span>
+                </h2>
+                <p class="text-zinc-400 text-sm max-w-2xl mt-2 font-mono mx-auto md:mx-0">
+                    If it runs on a GY6, a Predator, or cuts grass, we can build it, tune it, or fix it.
                 </p>
             </div>
 
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <!-- Service 1 -->
-                <div class="rounded-2xl bg-obsidian-950 border border-zinc-800 hover:border-crimson-500/60 transition-all duration-300 flex flex-col justify-between overflow-hidden group red-glow">
-                    <div>
-                        <div class="h-52 overflow-hidden relative bg-obsidian-900">
-                            <img src="https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?auto=format&fit=crop&w=800&q=80" 
-                                 onerror="this.src='https://placehold.co/600x400/14141b/dc2626?text=BIG+BORE+TOP+ENDS'"
-                                 alt="Big Bore Cylinder and Top End Build" 
-                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-85">
-                            <div class="absolute inset-0 bg-gradient-to-t from-obsidian-950 via-obsidian-950/30 to-transparent"></div>
-                            <span class="absolute top-4 left-4 px-3 py-1 rounded-lg bg-obsidian-900/90 border border-zinc-700 text-crimson-500 font-mono text-xs font-bold">$100/HR LABOR</span>
-                        </div>
-                        <div class="p-7">
-                            <div class="flex items-center justify-between mb-3">
-                                <h3 class="text-2xl font-display font-bold text-white">Big Bore & Top-End Conversions</h3>
-                                <i class="fa-solid fa-piston text-crimson-500 text-xl"></i>
-                            </div>
-                            <p class="text-zinc-400 text-sm leading-relaxed mb-6">
-                                Turn a sluggish 50cc into a 100cc sleeper, or rebuild your blown small-bore motor up to 400cc.
-                            </p>
-                            <ul class="space-y-2.5 text-xs text-zinc-300 border-t border-zinc-800 pt-5">
-                                <li class="flex items-start space-x-2.5">
-                                    <i class="fa-solid fa-check text-crimson-500 mt-0.5"></i>
-                                    <span>50cc to 80cc / 100cc+ GY6 Big Bore Kits</span>
-                                </li>
-                                <li class="flex items-start space-x-2.5">
-                                    <i class="fa-solid fa-check text-crimson-500 mt-0.5"></i>
-                                    <span>Ported Heads & Performance A9/A14 Cams</span>
-                                </li>
-                                <li class="flex items-start space-x-2.5">
-                                    <i class="fa-solid fa-check text-crimson-500 mt-0.5"></i>
-                                    <span>Predator 212 / 224 Billet Rods & Governor Deletes</span>
-                                </li>
-                            </ul>
-                        </div>
+                <div class="bg-obsidian-900 border border-zinc-800 rounded-xl p-6 group hover:border-crimson-500 transition-colors">
+                    <div class="w-12 h-12 bg-crimson-600/10 rounded-lg flex items-center justify-center mb-4 border border-crimson-500/30 group-hover:bg-crimson-600/20">
+                        <i class="fa-solid fa-motorcycle text-crimson-500 text-xl"></i>
                     </div>
+                    <h3 class="text-xl font-display font-bold text-white uppercase mb-2">Scooters & Mopeds</h3>
+                    <p class="text-sm text-zinc-400 mb-4 h-16">Expert tuning and modification for 50cc to 150cc GY6 engines. From basic maintenance to complete top-end rebuilds.</p>
+                    <ul class="space-y-1.5 text-xs font-mono text-zinc-300">
+                        <li>> Big Bore Kit Installations</li>
+                        <li>> Performance Carb Tuning</li>
+                        <li>> CVT/Roller Weight Upgrades</li>
+                    </ul>
                 </div>
 
                 <!-- Service 2 -->
-                <div class="rounded-2xl bg-obsidian-950 border border-zinc-800 hover:border-amber-500/60 transition-all duration-300 flex flex-col justify-between overflow-hidden group red-glow">
-                    <div>
-                        <div class="h-52 overflow-hidden relative bg-obsidian-900">
-                            <img src="https://images.unsplash.com/photo-1592417817098-8f3d692ad4b5?auto=format&fit=crop&w=800&q=80" 
-                                 onerror="this.src='https://placehold.co/600x400/14141b/f59e0b?text=LAWNMOWER+REPAIR'"
-                                 alt="Lawnmower and Small Engine Repair" 
-                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-85">
-                            <div class="absolute inset-0 bg-gradient-to-t from-obsidian-950 via-obsidian-950/30 to-transparent"></div>
-                            <span class="absolute top-4 left-4 px-3 py-1 rounded-lg bg-obsidian-900/90 border border-zinc-700 text-amber-400 font-mono text-xs font-bold">$85/HR LABOR</span>
-                        </div>
-                        <div class="p-7">
-                            <div class="flex items-center justify-between mb-3">
-                                <h3 class="text-2xl font-display font-bold text-white">Lawnmower & General Repair</h3>
-                                <i class="fa-solid fa-seedling text-amber-500 text-xl"></i>
-                            </div>
-                            <p class="text-zinc-400 text-sm leading-relaxed mb-6">
-                                Complete lawnmower engine diagnostics, carburetor cleaning, belt replacements, deck maintenance, and blade sharpening.
-                            </p>
-                            <ul class="space-y-2.5 text-xs text-zinc-300 border-t border-zinc-800 pt-5">
-                                <li class="flex items-start space-x-2.5">
-                                    <i class="fa-solid fa-check text-amber-500 mt-0.5"></i>
-                                    <span>Riding & Push Lawnmower Engine Repair</span>
-                                </li>
-                                <li class="flex items-start space-x-2.5">
-                                    <i class="fa-solid fa-check text-amber-500 mt-0.5"></i>
-                                    <span>Carb Cleanouts & Fuel System Flushes</span>
-                                </li>
-                                <li class="flex items-start space-x-2.5">
-                                    <i class="fa-solid fa-check text-amber-500 mt-0.5"></i>
-                                    <span>Blade Sharpening & Deck Belt Swaps</span>
-                                </li>
-                            </ul>
-                        </div>
+                <div class="bg-obsidian-900 border border-zinc-800 rounded-xl p-6 group hover:border-amber-500 transition-colors">
+                    <div class="w-12 h-12 bg-amber-500/10 rounded-lg flex items-center justify-center mb-4 border border-amber-500/30 group-hover:bg-amber-500/20">
+                        <i class="fa-solid fa-truck-monster text-amber-500 text-xl"></i>
                     </div>
+                    <h3 class="text-xl font-display font-bold text-white uppercase mb-2">ATVs & Pit Bikes</h3>
+                    <p class="text-sm text-zinc-400 mb-4 h-16">Suspension, engine, and electrical work for small-displacement off-road vehicles up to 400cc.</p>
+                    <ul class="space-y-1.5 text-xs font-mono text-zinc-300">
+                        <li>> Dirt/Street Tire Swaps</li>
+                        <li>> Custom Lighting / Stators</li>
+                        <li>> Engine Swaps & Mounts</li>
+                    </ul>
                 </div>
 
                 <!-- Service 3 -->
-                <div class="rounded-2xl bg-obsidian-950 border border-zinc-800 hover:border-amber-500/60 transition-all duration-300 flex flex-col justify-between overflow-hidden group red-glow">
-                    <div>
-                        <div class="h-52 overflow-hidden relative bg-obsidian-900">
-                            <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80" 
-                                 onerror="this.src='https://placehold.co/600x400/14141b/dc2626?text=OFF-ROAD+CUSTOMS'"
-                                 alt="Off-Road Custom Builds" 
-                                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-85">
-                            <div class="absolute inset-0 bg-gradient-to-t from-obsidian-950 via-obsidian-950/30 to-transparent"></div>
-                            <span class="absolute top-4 left-4 px-3 py-1 rounded-lg bg-obsidian-900/90 border border-zinc-700 text-amber-400 font-mono text-xs font-bold">$200/HR (OFF-ROAD ONLY)</span>
-                        </div>
-                        <div class="p-7">
-                            <div class="flex items-center justify-between mb-3">
-                                <h3 class="text-2xl font-display font-bold text-white">Off-Road Custom Builds</h3>
-                                <i class="fa-solid fa-motorcycle text-amber-400 text-xl"></i>
-                            </div>
-                            <p class="text-zinc-400 text-sm leading-relaxed mb-6">
-                                Ground-up trail vehicles, go-karts, and engine swaps up to 400cc.
-                            </p>
-                            <ul class="space-y-2.5 text-xs text-zinc-300 border-t border-zinc-800 pt-5">
-                                <li class="flex items-start space-x-2.5">
-                                    <i class="fa-solid fa-check text-amber-400 mt-0.5"></i>
-                                    <span>Off-Road Trail Vehicles & Go-Karts</span>
-                                </li>
-                                <li class="flex items-start space-x-2.5">
-                                    <i class="fa-solid fa-check text-amber-400 mt-0.5"></i>
-                                    <span>Custom Engine Swaps & Chain Drives</span>
-                                </li>
-                                <li class="flex items-start space-x-2.5">
-                                    <i class="fa-solid fa-check text-amber-400 mt-0.5"></i>
-                                    <span>Upfront Quoted Labor & Parts Packages</span>
-                                </li>
-                            </ul>
-                        </div>
+                <div class="bg-obsidian-900 border border-zinc-800 rounded-xl p-6 group hover:border-emerald-500 transition-colors">
+                    <div class="w-12 h-12 bg-emerald-500/10 rounded-lg flex items-center justify-center mb-4 border border-emerald-500/30 group-hover:bg-emerald-500/20">
+                        <i class="fa-solid fa-leaf text-emerald-500 text-xl"></i>
                     </div>
+                    <h3 class="text-xl font-display font-bold text-white uppercase mb-2">Lawnmower Repair</h3>
+                    <p class="text-sm text-zinc-400 mb-4 h-16">Reliable general repair and maintenance for push mowers, riding mowers, and small utility engines.</p>
+                    <ul class="space-y-1.5 text-xs font-mono text-zinc-300">
+                        <li>> Carburetor Cleaning/Rebuild</li>
+                        <li>> Blade Sharpening & Belts</li>
+                        <li>> Oil Changes & Tune-ups</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 5. Shop Policies & Location -->
-    <section id="policies" class="py-20 bg-obsidian-950 border-b border-zinc-800">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
-                <!-- Shop Rules -->
-                <div class="lg:col-span-7 space-y-6">
-                    <div class="inline-flex items-center space-x-2 text-amber-400 font-mono text-xs uppercase tracking-widest">
-                        <i class="fa-solid fa-gavel"></i>
-                        <span>// 04. SHOP POLICIES & QUOTE RULES</span>
-                    </div>
-                    <h2 class="text-3xl sm:text-4xl font-display font-extrabold text-white uppercase tracking-tight">
-                        Clear Terms. <span class="text-crimson-500">No BS.</span>
+    <!-- Labor & Deposit Calculator -->
+    <section id="calculator" class="py-16 bg-obsidian-900 border-b border-zinc-800 relative">
+        <div class="absolute inset-0 grid-bg opacity-30 pointer-events-none"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="flex flex-col md:flex-row gap-12">
+                <!-- Calculator Header -->
+                <div class="md:w-1/3">
+                    <span class="text-crimson-500 font-mono text-xs uppercase tracking-widest block mb-2">// 03. ESTIMATOR</span>
+                    <h2 class="text-3xl sm:text-4xl font-display font-extrabold text-white uppercase tracking-tight mb-4">
+                        Labor & Deposit <span class="text-crimson-500">Calculator.</span>
                     </h2>
-
-                    <div class="space-y-4">
-                        <div class="p-5 rounded-xl bg-obsidian-900 border-l-4 border-crimson-600 border border-zinc-800">
-                            <h4 class="font-display font-bold text-white text-sm uppercase">1. Parts Deposit & Upfront Quotes</h4>
-                            <p class="text-xs text-zinc-400 mt-1 leading-relaxed">
-                                Standard repairs and big bores require a parts deposit of <strong class="text-zinc-200">$50 + $0.50/cc</strong>. Off-road custom builds require a comprehensive upfront quote covering all labor and parts before work begins.
-                            </p>
+                    <p class="text-zinc-400 text-sm font-mono mb-6">
+                        Use this tool to calculate your estimated labor costs and minimum required parts deposit.
+                    </p>
+                    <div class="bg-obsidian-950 border border-zinc-800 rounded-xl p-5 space-y-4">
+                        <div class="flex items-start space-x-3">
+                            <i class="fa-solid fa-info-circle text-amber-500 mt-0.5"></i>
+                            <p class="text-xs text-zinc-300"><strong>Parts Deposit:</strong> Covers estimated parts cost. Minimum $75. Non-refundable.</p>
                         </div>
-
-                        <div class="p-5 rounded-xl bg-obsidian-900 border-l-4 border-amber-500 border border-zinc-800">
-                            <h4 class="font-display font-bold text-white text-sm uppercase">2. Upfront Hourly Labor Rates</h4>
-                            <p class="text-xs text-zinc-400 mt-1 leading-relaxed">
-                                General repair & lawnmowers: <strong class="text-zinc-200">$85/hr</strong>. Performance & big bore tuning: <strong class="text-zinc-200">$100/hr</strong>. Off-road custom fabrication: <strong class="text-zinc-200">$200/hr</strong>.
-                            </p>
-                        </div>
-
-                        <div class="p-5 rounded-xl bg-obsidian-900 border-l-4 border-zinc-600 border border-zinc-800">
-                            <h4 class="font-display font-bold text-white text-sm uppercase">3. Completion & Appointment Policy</h4>
-                            <p class="text-xs text-zinc-400 mt-1 leading-relaxed">
-                                Once finished, you have 7 calendar days to settle remaining balances and pick up your machine. All drop-offs and pick-ups are strictly by appointment.
-                            </p>
+                        <div class="flex items-start space-x-3">
+                            <i class="fa-solid fa-clock text-amber-500 mt-0.5"></i>
+                            <p class="text-xs text-zinc-300"><strong>Labor Estimate:</strong> Hours multiplied by the tier rate. Final hours may vary.</p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Business Address Box -->
-                <div class="lg:col-span-5">
-                    <div class="p-7 sm:p-8 rounded-2xl bg-obsidian-900 border border-zinc-800 shadow-2xl space-y-6">
-                        <div class="flex items-center justify-between border-b border-zinc-800 pb-4">
+                <!-- Calculator Tool -->
+                <div class="md:w-2/3 bg-obsidian-950 border border-zinc-800 rounded-2xl p-6 shadow-2xl">
+                    <form id="calc-form" class="space-y-6">
+                        <!-- Vehicle Type & Tier -->
+                        <div>
+                            <label class="block text-xs font-mono text-zinc-400 uppercase tracking-wider mb-3">1. Select Service Tier</label>
+                            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                                <label class="cursor-pointer">
+                                    <input type="radio" name="laborTier" value="85" class="peer sr-only" checked>
+                                    <div class="p-3 rounded-lg border border-zinc-700 bg-obsidian-900 peer-checked:border-amber-500 peer-checked:bg-amber-500/10 transition-all text-center">
+                                        <span class="block text-sm font-bold text-white uppercase">General / Mower</span>
+                                        <span class="block text-xs font-mono text-amber-500 mt-1">$85/hr</span>
+                                    </div>
+                                </label>
+                                <label class="cursor-pointer">
+                                    <input type="radio" name="laborTier" value="100" class="peer sr-only">
+                                    <div class="p-3 rounded-lg border border-zinc-700 bg-obsidian-900 peer-checked:border-crimson-500 peer-checked:bg-crimson-600/10 transition-all text-center">
+                                        <span class="block text-sm font-bold text-white uppercase">Big Bore / Tune</span>
+                                        <span class="block text-xs font-mono text-crimson-500 mt-1">$100/hr</span>
+                                    </div>
+                                </label>
+                                <label class="cursor-pointer">
+                                    <input type="radio" name="laborTier" value="200" class="peer sr-only">
+                                    <div class="p-3 rounded-lg border border-zinc-700 bg-obsidian-900 peer-checked:border-amber-400 peer-checked:bg-amber-400/10 transition-all text-center">
+                                        <span class="block text-sm font-bold text-white uppercase">Custom / Swap</span>
+                                        <span class="block text-xs font-mono text-amber-400 mt-1">$200/hr</span>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                            <!-- Estimated Hours -->
                             <div>
-                                <span class="text-xs font-mono text-crimson-500 uppercase">OFFICIAL SHOP LOCATION</span>
-                                <h3 class="text-2xl font-display font-extrabold text-white uppercase">Wesley, Arkansas</h3>
-                            </div>
-                            <div class="w-12 h-12 rounded-xl bg-crimson-600/15 border border-crimson-500/40 flex items-center justify-center text-crimson-500">
-                                <i class="fa-solid fa-location-dot text-xl"></i>
-                            </div>
-                        </div>
-
-                        <div class="space-y-4 text-sm">
-                            <div class="flex items-start space-x-3.5">
-                                <i class="fa-solid fa-map-location-dot text-crimson-500 mt-1"></i>
-                                <div>
-                                    <p class="font-display font-bold text-white uppercase">Shop Address</p>
-                                    <a href="https://www.google.com/maps/search/?api=1&query=1610+Madison+County+Rd+6345,+Wesley,+AR+72773" target="_blank" rel="noopener noreferrer" class="text-sm font-mono text-amber-400 font-bold mt-0.5 hover:underline block">
-                                        1610 Madison County Rd 6345<br>Wesley, Arkansas 72773
-                                    </a>
-                                    <p class="text-xs text-zinc-400 mt-1">Serving Washington & Madison Counties and NWA.</p>
+                                <label for="estHours" class="block text-xs font-mono text-zinc-400 uppercase tracking-wider mb-2">2. Est. Labor Hours</label>
+                                <div class="relative">
+                                    <input type="number" id="estHours" min="1" step="0.5" value="2" class="w-full bg-obsidian-900 border border-zinc-700 rounded-lg px-4 py-3 text-white font-mono focus:outline-none focus:border-crimson-500 focus:ring-1 focus:ring-crimson-500 transition-colors">
+                                    <div class="absolute inset-y-0 right-0 pr-4 flex items-center pointer-events-none">
+                                        <span class="text-zinc-500 text-sm font-mono">hrs</span>
+                                    </div>
                                 </div>
                             </div>
 
-                            <div class="flex items-start space-x-3.5">
-                                <i class="fa-solid fa-gauge text-amber-500 mt-1"></i>
-                                <div>
-                                    <p class="font-display font-bold text-white uppercase">Engine Capacity</p>
-                                    <p class="text-xs text-zinc-400 mt-0.5">50cc to 400cc small engines & lawnmowers.</p>
-                                </div>
-                            </div>
-
-                            <div class="flex items-start space-x-3.5">
-                                <i class="fa-solid fa-envelope text-crimson-500 mt-1"></i>
-                                <div>
-                                    <p class="font-display font-bold text-white uppercase">Direct Dispatch</p>
-                                    <a href="mailto:CCBuilds@pm.me" class="text-xs font-mono text-zinc-300 hover:text-white mt-0.5 block transition-colors" id="shop-email">CCBuilds@pm.me</a>
-                                </div>
-                            </div>
-
-                            <div class="flex items-start space-x-3.5">
-                                <i class="fa-solid fa-phone text-amber-500 mt-1"></i>
-                                <div>
-                                    <p class="font-display font-bold text-white uppercase">Shop Phone / Text</p>
-                                    <a href="tel:4793970534" class="text-xs font-mono text-amber-400 hover:underline mt-0.5 block font-bold">(479) 397-0534</a>
+                            <!-- Estimated Parts Cost -->
+                            <div>
+                                <label for="estParts" class="block text-xs font-mono text-zinc-400 uppercase tracking-wider mb-2">3. Est. Parts Cost ($)</label>
+                                <div class="relative">
+                                    <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                                        <span class="text-zinc-500 text-sm font-mono">$</span>
+                                    </div>
+                                    <input type="number" id="estParts" min="0" step="5" value="100" class="w-full bg-obsidian-900 border border-zinc-700 rounded-lg pl-8 pr-4 py-3 text-white font-mono focus:outline-none focus:border-crimson-500 focus:ring-1 focus:ring-crimson-500 transition-colors">
                                 </div>
                             </div>
                         </div>
 
-                        <div class="pt-4 border-t border-zinc-800">
-                            <a href="#calculator" class="w-full py-3.5 px-6 rounded-xl bg-crimson-600 hover:bg-crimson-500 text-white font-display font-bold text-xs uppercase tracking-wider transition-all flex items-center justify-center space-x-2">
-                                <i class="fa-solid fa-calculator"></i>
-                                <span>Calculate Labor & Deposit</span>
-                            </a>
+                        <!-- Results Box -->
+                        <div class="mt-6 bg-obsidian-900 border border-zinc-700 rounded-xl p-5">
+                            <div class="flex justify-between items-center mb-3 pb-3 border-b border-zinc-800">
+                                <span class="text-sm font-mono text-zinc-400">Required Parts Deposit (Min $75):</span>
+                                <span id="calc-deposit" class="text-lg font-display font-bold text-emerald-400">$100.00</span>
+                            </div>
+                            <div class="flex justify-between items-center mb-3 pb-3 border-b border-zinc-800">
+                                <span class="text-sm font-mono text-zinc-400">Estimated Labor Cost:</span>
+                                <span id="calc-labor" class="text-lg font-display font-bold text-white">$170.00</span>
+                            </div>
+                            <div class="flex justify-between items-end pt-1">
+                                <div>
+                                    <span class="block text-sm font-bold text-white uppercase">Total Estimate</span>
+                                    <span class="block text-[10px] text-zinc-500 uppercase font-mono mt-0.5">Labor + Parts</span>
+                                </div>
+                                <span id="calc-total" class="text-3xl font-display font-extrabold text-crimson-500">$270.00</span>
+                            </div>
                         </div>
+
+                        <button type="button" id="submit-estimate" class="w-full py-4 rounded-xl bg-crimson-600 hover:bg-crimson-500 text-white font-display font-bold text-sm uppercase tracking-wider transition-all flex items-center justify-center space-x-2">
+                            <span>Submit Specs via Text</span>
+                            <i class="fa-solid fa-paper-plane text-amber-300"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop Policies & Location -->
+    <section id="policies" class="py-16 bg-obsidian-950 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <!-- Contact & Location -->
+                <div>
+                    <span class="text-amber-500 font-mono text-xs uppercase tracking-widest block mb-2">// 04. LOCATION & CONTACT</span>
+                    <h2 class="text-3xl font-display font-extrabold text-white uppercase tracking-tight mb-6">
+                        Zachery North <span class="text-amber-500">Repairs.</span>
+                    </h2>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4 p-4 rounded-xl bg-obsidian-900 border border-zinc-800">
+                            <div class="w-10 h-10 rounded bg-crimson-600/10 flex items-center justify-center border border-crimson-500/30 flex-shrink-0">
+                                <i class="fa-solid fa-location-dot text-crimson-500"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-bold text-white uppercase mb-1">Shop Address</h4>
+                                <p class="text-sm text-zinc-400 font-mono">1610 Madison 6345<br>Wesley, AR 72773</p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=1610+Madison+6345,+Wesley,+AR+72773" target="_blank" rel="noopener noreferrer" class="text-xs text-amber-500 hover:text-amber-400 font-mono mt-2 inline-flex items-center space-x-1">
+                                    <span>Open in Maps</span>
+                                    <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-4 p-4 rounded-xl bg-obsidian-900 border border-zinc-800">
+                            <div class="w-10 h-10 rounded bg-amber-500/10 flex items-center justify-center border border-amber-500/30 flex-shrink-0">
+                                <i class="fa-solid fa-phone text-amber-500"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-bold text-white uppercase mb-1">Call or Text</h4>
+                                <a href="tel:4793970534" class="text-lg font-mono text-zinc-200 hover:text-white block">(479) 397-0534</a>
+                                <p class="text-xs text-zinc-500 font-mono mt-1">Appointments & Walk-ins welcome.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Shop Rules -->
+                <div>
+                    <div class="p-6 sm:p-8 rounded-2xl bg-obsidian-900 border border-zinc-800 shadow-xl">
+                        <h3 class="text-xl font-display font-bold text-white uppercase mb-6 flex items-center space-x-3">
+                            <i class="fa-solid fa-clipboard-list text-crimson-500"></i>
+                            <span>Strict Shop Policies</span>
+                        </h3>
+                        
+                        <ul class="space-y-4">
+                            <li class="flex items-start space-x-3">
+                                <i class="fa-solid fa-circle-exclamation text-crimson-500 mt-1 text-sm"></i>
+                                <div>
+                                    <p class="text-sm font-bold text-white uppercase">Engine Size Limit</p>
+                                    <p class="text-xs text-zinc-400 font-mono mt-0.5">We strictly work on small engines up to 400cc and lawnmowers. No full-size cars or trucks.</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <i class="fa-solid fa-circle-exclamation text-crimson-500 mt-1 text-sm"></i>
+                                <div>
+                                    <p class="text-sm font-bold text-white uppercase">Non-Refundable Deposits</p>
+                                    <p class="text-xs text-zinc-400 font-mono mt-0.5">Parts deposits (Min $75) are required upfront and are strictly non-refundable once parts are ordered.</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start space-x-3">
+                                <i class="fa-solid fa-circle-exclamation text-crimson-500 mt-1 text-sm"></i>
+                                <div>
+                                    <p class="text-sm font-bold text-white uppercase">No Diagnostic Scams</p>
+                                    <p class="text-xs text-zinc-400 font-mono mt-0.5">We don't charge hidden fees just to look at it. You pay the straight hourly rate for the time it takes to fix it or tune it.</p>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -789,119 +609,119 @@
     </section>
 
     <!-- Footer -->
-    <footer class="bg-obsidian-950 py-12">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex flex-col md:flex-row items-center justify-between gap-6">
-                <div class="flex items-center space-x-3">
-                    <img src="https://i.postimg.cc/SR6BPY2D/1791984296717-1.png" alt="Criminally Custom Builds" class="w-10 h-10 rounded-full border border-amber-500/80 object-cover">
-                    <div>
-                        <span class="text-base font-display font-extrabold tracking-wider text-white">CRIMINALLY CUSTOM BUILDS (CC BUILDS)</span>
-                        <p class="text-xs text-zinc-500">1610 Madison County Rd 6345, Wesley, AR 72773 // Phone: (479) 397-0534</p>
-                    </div>
-                </div>
-
-                <div class="text-center md:text-right text-xs font-mono text-zinc-500 space-y-1">
-                    <p>Labor: $85/hr Repair & Mowers | $100/hr Performance | $200/hr Off-Road Custom</p>
-                    <p>Deposit: $50 + $0.50/cc | Email: CCBuilds@pm.me</p>
-                </div>
+    <footer class="border-t border-zinc-900 bg-obsidian-950 py-8 relative">
+        <div class="h-1 w-full caution-stripes absolute top-0 left-0"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
+            <div class="flex items-center space-x-3">
+                <img src="https://drive.google.com/uc?export=view&id=1CBUu47txot5i-u2SmQpbFA8U_EF2mEeP" alt="Zachery North Repairs Icon" class="w-8 h-8 rounded border border-zinc-800">
+                <span class="text-sm font-display font-bold text-white uppercase tracking-wider">Zachery North Repairs</span>
             </div>
+            <p class="text-xs font-mono text-zinc-500 text-center md:text-right">
+                &copy; <script>document.write(new Date().getFullYear())</script> Zachery North. Unapologetic Performance.<br>
+                Small Engines & Fabrication. Wesley, AR.
+            </p>
         </div>
     </footer>
 
-    <!-- Interactive Logic -->
+    <!-- Interactive Scripts -->
     <script>
-        // Mobile Menu
-        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
-        const mobileMenu = document.getElementById('mobile-menu');
-
-        mobileMenuBtn.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
-        });
-
-        mobileMenu.querySelectorAll('a').forEach(link => {
-            link.addEventListener('click', () => {
-                mobileMenu.classList.add('hidden');
+        document.addEventListener('DOMContentLoaded', () => {
+            // Mobile Menu Toggle
+            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+            
+            mobileMenuBtn.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+                const icon = mobileMenuBtn.querySelector('i');
+                if (mobileMenu.classList.contains('hidden')) {
+                    icon.classList.remove('fa-xmark');
+                    icon.classList.add('fa-bars-staggered');
+                } else {
+                    icon.classList.remove('fa-bars-staggered');
+                    icon.classList.add('fa-xmark');
+                }
             });
-        });
 
-        // Toast Helper
-        function showToast(title, message) {
+            // Close mobile menu on link click
+            const mobileLinks = mobileMenu.querySelectorAll('a');
+            mobileLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.add('hidden');
+                    const icon = mobileMenuBtn.querySelector('i');
+                    icon.classList.remove('fa-xmark');
+                    icon.classList.add('fa-bars-staggered');
+                });
+            });
+
+            // Calculator Logic
+            const tierRadios = document.querySelectorAll('input[name="laborTier"]');
+            const hoursInput = document.getElementById('estHours');
+            const partsInput = document.getElementById('estParts');
+            
+            const depositDisplay = document.getElementById('calc-deposit');
+            const laborDisplay = document.getElementById('calc-labor');
+            const totalDisplay = document.getElementById('calc-total');
+
+            function updateCalculator() {
+                // Get selected rate
+                let rate = 85; // default
+                tierRadios.forEach(radio => {
+                    if (radio.checked) rate = parseFloat(radio.value);
+                });
+
+                const hours = parseFloat(hoursInput.value) || 0;
+                const partsCost = parseFloat(partsInput.value) || 0;
+
+                // Deposit logic: Minimum $75, or the parts cost if higher
+                const depositAmount = Math.max(75, partsCost);
+                const laborCost = rate * hours;
+                const totalCost = laborCost + partsCost;
+
+                // Update UI
+                depositDisplay.textContent = `$${depositAmount.toFixed(2)}`;
+                laborDisplay.textContent = `$${laborCost.toFixed(2)}`;
+                totalDisplay.textContent = `$${totalCost.toFixed(2)}`;
+            }
+
+            // Listeners for calc updates
+            tierRadios.forEach(radio => radio.addEventListener('change', updateCalculator));
+            hoursInput.addEventListener('input', updateCalculator);
+            partsInput.addEventListener('input', updateCalculator);
+
+            // Initialize calc
+            updateCalculator();
+
+            // Submit Estimate / Toast Notification
+            const submitBtn = document.getElementById('submit-estimate');
             const toast = document.getElementById('toast');
-            document.getElementById('toast-title').textContent = title;
-            document.getElementById('toast-msg').textContent = message;
-            toast.classList.remove('translate-y-32', 'opacity-0');
-            setTimeout(() => {
-                toast.classList.add('translate-y-32', 'opacity-0');
-            }, 4500);
-        }
 
-        // Estimator Calculation Logic
-        const rateRadios = document.querySelectorAll('input[name="service_rate"]');
-        const ccSlider = document.getElementById('cc-slider');
-        const ccDisplay = document.getElementById('cc-display');
-        const formulaCc = document.getElementById('formula-cc');
-        const formulaDeposit = document.getElementById('formula-deposit');
-        const calcCcLabel = document.getElementById('calc-cc-label');
-        const calcCcCharge = document.getElementById('calc-cc-charge');
+            submitBtn.addEventListener('click', () => {
+                // 1. Show Toast
+                toast.classList.remove('translate-y-32', 'opacity-0');
+                
+                // 2. Hide Toast after 3s
+                setTimeout(() => {
+                    toast.classList.add('translate-y-32', 'opacity-0');
+                }, 3500);
 
-        const hoursSlider = document.getElementById('hours-slider');
-        const hoursDisplay = document.getElementById('hours-display');
-
-        const summaryDepositTotal = document.getElementById('summary-deposit-total');
-        const summaryRateLabel = document.getElementById('summary-rate-label');
-        const summaryHoursLabel = document.getElementById('summary-hours-label');
-        const summaryLaborTotal = document.getElementById('summary-labor-total');
-        const summaryGrandTotal = document.getElementById('summary-grand-total');
-
-        function formatCurrency(num) {
-            return '$' + num.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
-        }
-
-        function updateCalculator() {
-            const selectedRate = parseFloat(document.querySelector('input[name="service_rate"]:checked').value);
-            const cc = parseFloat(ccSlider.value) || 50;
-            const hours = parseFloat(hoursSlider.value) || 0;
-
-            const ccVariableDeposit = cc * 0.50;
-            const totalDeposit = 50 + ccVariableDeposit;
-            const laborTotal = hours * selectedRate;
-            const grandTotal = totalDeposit + laborTotal;
-
-            ccDisplay.textContent = cc;
-            formulaCc.textContent = cc;
-            calcCcLabel.textContent = cc;
-            calcCcCharge.textContent = '+' + formatCurrency(ccVariableDeposit);
-            formulaDeposit.textContent = formatCurrency(totalDeposit);
-            summaryDepositTotal.textContent = formatCurrency(totalDeposit);
-
-            hoursDisplay.textContent = hours % 1 === 0 ? hours : hours.toFixed(1);
-            summaryHoursLabel.textContent = (hours % 1 === 0 ? hours : hours.toFixed(1)) + ' hrs';
-
-            let rateText = `$${selectedRate}/hr (General Repair & Mowers)`;
-            if (selectedRate === 100) rateText = `$100/hr (Performance / Big Bore)`;
-            if (selectedRate === 200) rateText = `$200/hr (Off-Road Custom Builds - Quoted)`;
-
-            summaryRateLabel.textContent = rateText;
-            summaryLaborTotal.textContent = formatCurrency(laborTotal);
-            summaryGrandTotal.textContent = formatCurrency(grandTotal);
-        }
-
-        rateRadios.forEach(radio => radio.addEventListener('change', updateCalculator));
-        ccSlider.addEventListener('input', updateCalculator);
-        hoursSlider.addEventListener('input', updateCalculator);
-
-        updateCalculator();
-
-        // Form Submit
-        const quoteForm = document.getElementById('quote-form');
-        quoteForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            const riderName = document.getElementById('rider-name').value;
-            const budget = document.getElementById('project-budget').value;
-            showToast(
-                `Quote Request Logged // ${riderName}`,
-                `Submitted successfully! Target Budget: ${budget}. We will review your build description and contact you.`
-            );
+                // 3. Prepare SMS protocol link
+                let rateLabel = "General Repair";
+                tierRadios.forEach(radio => {
+                    if (radio.checked) {
+                        if(radio.value == "100") rateLabel = "Performance/Big Bore";
+                        if(radio.value == "200") rateLabel = "Custom/Swap";
+                    }
+                });
+                const hours = hoursInput.value;
+                const total = totalDisplay.textContent;
+                
+                const smsMessage = encodeURIComponent(`Hey Zachery, I'd like to get on the schedule.\n\nType: ${rateLabel}\nEst Hours: ${hours}\nEst Total: ${total}\n\nCall me to discuss details.`);
+                
+                // 4. Trigger SMS (Mobile friendly) after a slight delay
+                setTimeout(() => {
+                    window.location.href = `sms:4793970534?body=${smsMessage}`;
+                }, 500);
+            });
         });
     </script>
 </body>
