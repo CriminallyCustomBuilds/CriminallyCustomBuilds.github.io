@@ -375,7 +375,7 @@
                     Labor & Deposit <span class="text-crimson-500">Estimator.</span>
                 </h2>
                 <p class="text-zinc-400 text-sm sm:text-base mt-3">
-                    Select your service tier, displacement, provide your project description and budget, and submit your work order specs.
+                    Select your service tier, displacement, provide your project description and optional budget, and submit your work order specs.
                 </p>
             </div>
 
@@ -476,8 +476,10 @@
                         </div>
 
                         <div>
-                            <label for="project-budget" class="block text-xs font-mono uppercase tracking-wider text-amber-400 mb-1.5">Target Budget ($) *</label>
-                            <input type="text" id="project-budget" required placeholder="$500 - $1,500" class="w-full px-4 py-3 rounded-xl bg-obsidian-950 border border-amber-500/50 text-white text-sm focus:outline-none focus:border-amber-400">
+                            <div class="flex justify-between items-center mb-1.5">
+                                <label for="project-budget" id="budget-label" class="block text-xs font-mono uppercase tracking-wider text-zinc-400">Target Budget ($) <span id="budget-optional-tag" class="text-zinc-500 lowercase">(optional)</span></label>
+                            </div>
+                            <input type="text" id="project-budget" placeholder="$500 - $1,500" class="w-full px-4 py-3 rounded-xl bg-obsidian-950 border border-zinc-700 text-white text-sm focus:outline-none focus:border-zinc-500 transition-all">
                         </div>
                     </div>
 
@@ -853,6 +855,10 @@
         const summaryLaborTotal = document.getElementById('summary-labor-total');
         const summaryGrandTotal = document.getElementById('summary-grand-total');
 
+        const projectBudgetInput = document.getElementById('project-budget');
+        const budgetLabel = document.getElementById('budget-label');
+        const budgetOptionalTag = document.getElementById('budget-optional-tag');
+
         function formatCurrency(num) {
             return '$' + num.toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
         }
@@ -861,6 +867,29 @@
             const selectedRate = parseFloat(document.querySelector('input[name="service_rate"]:checked').value);
             const cc = parseFloat(ccSlider.value) || 50;
             const hours = parseFloat(hoursSlider.value) || 0;
+
+            // Check if Off-Road Custom (rate = 200)
+            const isCustomBuild = (selectedRate === 200);
+
+            if (isCustomBuild) {
+                projectBudgetInput.setAttribute('required', 'true');
+                budgetLabel.classList.remove('text-zinc-400');
+                budgetLabel.classList.add('text-amber-400');
+                budgetOptionalTag.textContent = '(required for custom builds)';
+                budgetOptionalTag.classList.remove('text-zinc-500');
+                budgetOptionalTag.classList.add('text-amber-400', 'font-bold');
+                projectBudgetInput.classList.remove('border-zinc-700');
+                projectBudgetInput.classList.add('border-amber-500/50');
+            } else {
+                projectBudgetInput.removeAttribute('required');
+                budgetLabel.classList.remove('text-amber-400');
+                budgetLabel.classList.add('text-zinc-400');
+                budgetOptionalTag.textContent = '(optional)';
+                budgetOptionalTag.classList.remove('text-amber-400', 'font-bold');
+                budgetOptionalTag.classList.add('text-zinc-500');
+                projectBudgetInput.classList.remove('border-amber-500/50');
+                projectBudgetInput.classList.add('border-zinc-700');
+            }
 
             const ccVariableDeposit = cc * 0.50;
             const totalDeposit = 50 + ccVariableDeposit;
@@ -897,7 +926,7 @@
         quoteForm.addEventListener('submit', (e) => {
             e.preventDefault();
             const riderName = document.getElementById('rider-name').value;
-            const budget = document.getElementById('project-budget').value;
+            const budget = document.getElementById('project-budget').value || 'Not specified';
             showToast(
                 `Quote Request Logged // ${riderName}`,
                 `Submitted successfully! Target Budget: ${budget}. We will review your build description and contact you.`
